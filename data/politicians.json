@@ -1,0 +1,1326 @@
+{
+ "topics": {
+  "T1": {
+   "title_he": "סיום המלחמה ועסקת חטופים"
+  },
+  "T2": {
+   "title_he": "שליטה והתיישבות בעזה"
+  },
+  "T3": {
+   "title_he": "עידוד הגירה מעזה"
+  },
+  "T4": {
+   "title_he": "מדינה פלסטינית"
+  },
+  "T5": {
+   "title_he": "ריבונות והתנחלויות ביהודה ושומרון"
+  },
+  "T6": {
+   "title_he": "הרפורמה המשפטית"
+  },
+  "T7": {
+   "title_he": "גיוס חרדים"
+  },
+  "T8": {
+   "title_he": "דת ומדינה — שבת ונישואים"
+  },
+  "T9": {
+   "title_he": "שוק חופשי מול מדינת רווחה"
+  },
+  "T10": {
+   "title_he": "יוקר המחיה ודיור"
+  },
+  "T11": {
+   "title_he": "החברה הערבית"
+  },
+  "T12": {
+   "title_he": "עונש מוות למחבלים"
+  },
+  "T13": {
+   "title_he": "איראן"
+  },
+  "T14": {
+   "title_he": "המשך כהונת נתניהו"
+  },
+  "T15": {
+   "title_he": "זכויות להט\"ב"
+  },
+  "T16": {
+   "title_he": "חוק השבות — סעיף הנכד"
+  }
+ },
+ "politicians": [
+  {
+   "id": "netanyahu",
+   "name_he": "בנימין נתניהו",
+   "party_he": "הליכוד",
+   "bio_he": "ראש הממשלה המכהן ויו\"ר הליכוד, ראש הממשלה המכהן הכי הרבה שנים בתולדות ישראל, העומד בראש הממשלה הראשונה זה ארבעה עשורים שסיימה קדנציה מלאה. מנהל במקביל משפט פלילי בשלוש פרשות שחיתות. לקראת בחירות 27.10.2026 הוא רץ על מורשת \"הניצחון המוחלט\": מבצעי עם כלביא ולביא שואג נגד איראן, החזרת כל החטופים בעסקת טראמפ (אוקטובר 2025) והכרעת חיזבאללה וחמאס. נקודת התורפה המרכזית: קריסת הקואליציה סביב חוק הפטור לחרדים ומשפטו המתמשך.",
+   "positions": {
+    "T1": {
+     "score": 1,
+     "summary_he": "התנגד שנתיים ל'עסקה שתסיים את המלחמה', אך באוקטובר 2025 אישר את מתווה טראמפ שהחזיר את כל החטופים תמורת סיום הלחימה — ומציג זאת כניצחון.",
+     "evidence": "ממשלתו אישרה את 'המתווה לשחרור כל החטופים — החיים והחללים' וההסכם נכנס לתוקף; Times of Israel, https://www.timesofisrael.com/gaza-ceasefire-takes-effect-as-government-approves-deal-to-free-the-hostages/ (10.10.2025)",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": 1,
+     "summary_he": "דורש שליטה ביטחונית ישראלית מתמשכת בעזה (צה\"ל נותר בחלק גדול מהרצועה גם אחרי העסקה), אך מעולם לא אימץ חידוש התנחלויות בעזה וכינה זאת בעבר 'לא מטרה ריאלית'.",
+     "evidence": "גם אחרי שחרור החטופים ישראל שומרת כוחות ברוב שטח עזה ללא לוח זמנים לנסיגה נוספת; RAND, https://www.rand.org/pubs/commentary/2025/11/the-gaza-cease-fire-deal-is-hardly-the-total-victory.html (11.2025)",
+     "confidence": "medium"
+    },
+    "T3": {
+     "score": 2,
+     "summary_he": "אימץ בפומבי את תוכנית טראמפ ל'הגירה מרצון' מעזה, כינה אותה 'רעיון מצוין' ואף הציב את יישומה כתנאי לסיום המלחמה.",
+     "evidence": "לפוקס ניוז: 'מה רע בכך שעזתים שרוצים לעזוב — יעזבו?... הרעיון הטוב הראשון ששמעתי' (6.2.2025); JTA, https://www.jta.org/2025/05/21/israel/an-embattled-netanyahu-says-trump-plan-for-gaza-emigration-is-a-condition-for-ending-war (21.5.2025)",
+     "confidence": "high"
+    },
+    "T4": {
+     "score": -2,
+     "summary_he": "מתנגד חד-משמעית למדינה פלסטינית — 'לא תקום מדינה פלסטינית', גם במחיר ויתור על נורמליזציה עם סעודיה.",
+     "evidence": "'נקיים את ההבטחה — לא תקום מדינה פלסטינית. המקום הזה שייך לנו' (מעלה אדומים, טקס E1); Al Jazeera, https://www.aljazeera.com/news/2025/9/11/israels-netanyahu-says-there-will-be-no-palestinian-state (11.9.2025); Times of Israel, https://www.timesofisrael.com/netanyahu-there-will-not-be-a-palestinian-state-even-at-cost-of-ties-with-saudis/",
+     "confidence": "high"
+    },
+    "T5": {
+     "score": 1,
+     "summary_he": "מרחיב התנחלויות מסיבית (חתם על תוכנית E1 שמבתרת את הגדה) אך נמנע מסיפוח רשמי בלחץ טראמפ.",
+     "evidence": "חתם על אישור סופי לתוכנית E1; Times of Israel, https://www.timesofisrael.com/there-will-be-no-palestinian-state-pm-signs-plan-cementing-e1-settlement-expansion/ (9.2025). סיפוח רשמי נבלם לאחר שטראמפ הודיע שלא יאפשר אותו.",
+     "confidence": "high"
+    },
+    "T6": {
+     "score": 2,
+     "summary_he": "הוביל את המהפכה המשפטית ב-2023, וקואליציתו חוקקה במרץ 2025 את חוק הרכב הוועדה לבחירת שופטים שמגביר דרמטית שליטה פוליטית במינויים (ייכנס לתוקף בכנסת הבאה).",
+     "evidence": "החוק עבר בחסות הקואליציה בראשותו, ייושם אחרי בחירות 2026; Times of Israel, https://www.timesofisrael.com/knesset-passes-law-greatly-boosting-political-control-over-judicial-appointments/ (27.3.2025)",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": -2,
+     "summary_he": "פועל בכיוון ההפוך: קידם עד הרגע האחרון חוק פטור לבני ישיבות עם ריכוך סנקציות, כדי להציל את הקואליציה.",
+     "evidence": "Times of Israel, https://www.timesofisrael.com/as-coalition-collapses-around-him-netanyahu-revives-haredi-draft-exemption-bill/ (2026); הצעת ביסמוט מטעמו לפטור והקלת סנקציות, https://www.timesofisrael.com/bismuth-presents-bill-exempting-yeshiva-students-from-idf-draft-loosening-sanctions/",
+     "confidence": "high"
+    },
+    "T8": {
+     "score": -1,
+     "summary_he": "חילוני באורחותיו אך פוליטית משמר את הסטטוס-קוו הדתי: כל ממשלותיו עם החרדים חסמו תחבורה ציבורית בשבת ונישואים אזרחיים בהסכמים קואליציוניים.",
+     "evidence": "ההסכמים הקואליציוניים של ממשלת 2022 קיבעו את הסטטוס-קוו הדתי כתנאי חרדי; לא קידם מעולם חקיקה כזו (הסכמי הקואליציה, כנסת 25, 12.2022)",
+     "confidence": "medium"
+    },
+    "T9": {
+     "score": 2,
+     "summary_he": "השוק החופשי הוא הציר האידיאולוגי שלו מאז רפורמות 2003: הפחתת מסים, הפרטות והסרת רגולציה — גם אם בפועל נכנע ללחצים סקטוריאליים.",
+     "evidence": "רפורמות נתניהו כשר האוצר 2003 (קיצוץ קצבאות, הפרטה) והצהרותיו העקביות; מתועד בין היתר בספרו Bibi: My Story (2022)",
+     "confidence": "high"
+    },
+    "T10": {
+     "score": -1,
+     "summary_he": "מתנגד עקרונית לפיקוח מחירים ולהתערבות ממשלתית מסיבית; מעדיף פתיחת שוק ליבוא, וספג ביקורת על אוזלת יד ביוקר המחיה והדיור.",
+     "evidence": "עמדה עקבית נגד פיקוח מחירים; ממשלתו 2023-2026 לא קידמה דיור ציבורי מסיבי ותקציביה תועדפו כספים קואליציוניים (דיוני תקציב 2025, כלכליסט/גלובס)",
+     "confidence": "medium"
+    },
+    "T11": {
+     "score": -1,
+     "summary_he": "בממשלתו קוצצו והוקפאו חלקים מתוכנית החומש לחברה הערבית (תוכנית 550), והפשיעה בחברה הערבית שברה שיאים בלי שהוגדרה יעד לאומי עליון.",
+     "evidence": "הקפאות וקיצוצים בתקציבי תוכנית 550 ביוזמת האוצר בממשלתו ושיאי רצח בחברה הערבית 2023-2025 (דיווחי ועדת המעקב, Times of Israel, הארץ)",
+     "confidence": "medium"
+    },
+    "T12": {
+     "score": 1,
+     "summary_he": "אחרי שנים שגרר רגליים מול חוקי בן-גביר, הצביע במרץ 2026 בעד חוק עונש מוות למחבלים בקריאה סופית.",
+     "evidence": "החוק עבר 62-47 ונתניהו הצביע בעד; Jerusalem Post, https://www.jpost.com/israel-news/politics-and-diplomacy/article-891688 (30.3.2026)",
+     "confidence": "high"
+    },
+    "T13": {
+     "score": 2,
+     "summary_he": "יזם את מבצע 'עם כלביא' (יוני 2025) ואת 'לביא שואג' (פברואר 2026) נגד הגרעין האיראני, ומצהיר שישראל תתקוף שוב בכל עת שיידרש.",
+     "evidence": "CNN, https://www.cnn.com/2025/06/12/middleeast/israel-iran-strikes-intl-hnk (12.6.2025); Axios, https://www.axios.com/2025/12/31/netanyahu-trump-iran-strikes-2026 (31.12.2025); מבצע נוסף פברואר 2026",
+     "confidence": "high"
+    },
+    "T14": {
+     "score": 2,
+     "summary_he": "רואה את עצמו כמנהיג היחיד שמסוגל להוביל את ישראל, ורץ לקדנציה נוספת בבחירות אוקטובר 2026 חרף משפטו.",
+     "evidence": "בראש רשימת הליכוד לבחירות 27.10.2026; Haaretz, https://www.haaretz.com/israel-news/elections/2026-07-12/ty-article/.premium/israels-2026-election-will-take-place-on-october-27-netanyahu-coalition-says/ (12.7.2026)",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": -1,
+     "summary_he": "רטוריקה של סובלנות כלפי להט\"ב, אך בפועל חסם שוב ושוב חקיקת שוויון (פונדקאות, נישואים) ויושב עם שותפים אנטי-להט\"ביים מוצהרים.",
+     "evidence": "ממשלתו כוללת את נעם ועוצמה יהודית עם התחייבויות קואליציוניות נגד חקיקת להט\"ב; לא קודמה חקיקת שוויון בכנסת ה-25 (2022-2026)",
+     "confidence": "medium"
+    },
+    "T16": {
+     "score": -1,
+     "summary_he": "בלם את הדרישה החרדית לבטל את סעיף הנכד — הבטיח פומבית ב-2023 ש'חוק השבות לא ישונה' בשל יחסי התפוצות, והליכוד הקפיא את היוזמה.",
+     "evidence": "הצעת חוק לצמצום חוק השבות נפלה כשהליכוד לא תמך; Times of Israel, https://www.timesofisrael.com/bill-to-limit-law-of-return-shot-down-despite-support-from-ultra-orthodox-mks/; הצהרת נתניהו 2.2023",
+     "confidence": "medium"
+    }
+   },
+   "color": "#2f6fdb",
+   "initials": "בנ"
+  },
+  {
+   "id": "bennett",
+   "name_he": "נפתלי בנט",
+   "party_he": "ביחד (בנט 2026 + יש עתיד)",
+   "bio_he": "ראש הממשלה לשעבר (2021–2022) וראש רשימת \"ביחד\", הברית שהוקמה ב-26.4.2026 בינו לבין יאיר לפיד (יש עתיד), בה בנט מספר 1 ולפיד מספר 2. מציג את תוכנית \"הרנסנס הישראלי\": חוקה, הגבלת כהונות לראש ממשלה, גיוס חרדים וועדת חקירה ממלכתית לשבעה באוקטובר. הצהיר שלא ישב בממשלה בראשות נתניהו ומתמקד בקמפיין של החלפת השלטון.",
+   "positions": {
+    "T1": {
+     "score": 2,
+     "summary_he": "קרא בפומבי לעסקה כוללת להשבת כל החטופים, סיום המלחמה ופריסת צה\"ל על מעטפת הרצועה.",
+     "evidence": "'Bennett urges hostage deal, slams Gaza war policy' — קרא לעסקה מקיפה להחזרת כל החטופים ולסיים את המלחמה; Times of Israel, https://www.timesofisrael.com/bennett-urges-hostage-deal-slams-gaza-war-policy-hails-and-claims-credit-for-iran-strikes/ (2025)",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": -1,
+     "summary_he": "בעד שליטה ביטחונית על מעטפת עזה בלבד — לא כיבוש קבע של הרצועה ולא התיישבות.",
+     "evidence": "בראיון לערוץ 12 הציע פריסת צה\"ל לאורך המעטפת ודחיית 'הניצחון המוחלט'; Times of Israel, https://www.timesofisrael.com/bennett-urges-hostage-deal-slams-gaza-war-policy-hails-and-claims-credit-for-iran-strikes/ (2025)",
+     "confidence": "medium"
+    },
+    "T3": {
+     "score": 0,
+     "summary_he": "לא אותרה עמדה מוצהרת ברורה בעד או נגד עידוד הגירה מעזה.",
+     "evidence": "לא נמצאו התבטאויות מתועדות בעד/נגד 'הגירה מרצון' (חיפושים בעברית ובאנגלית, 2024–2026)",
+     "confidence": "low"
+    },
+    "T4": {
+     "score": -2,
+     "summary_he": "מתנגד חד-משמעית למדינה פלסטינית לאורך כל הקריירה וגם בקמפיין 2026.",
+     "evidence": "'No Palestinian State, Zionist-only Coalition: Where Bennett Stands' — Haaretz, https://www.haaretz.com/israel-news/israel-politics/2026-04-27/ty-article/.premium/where-naftali-bennett-stands-on-israels-major-issues/0000019d-cf25-dc2f-addf-efff69eb0000 (27.4.2026)",
+     "confidence": "high"
+    },
+    "T5": {
+     "score": 1,
+     "summary_he": "היסטורית דגל בסיפוח שטח C ('תוכנית ההרגעה'), אך כראש ממשלה הקפיא: 'לא סיפוח ולא מדינה פלסטינית'.",
+     "evidence": "מחבר 'תוכנית ההרגעה' לסיפוח שטח C (2012); כראש ממשלה: נוסחת 'לא סיפוח ולא מדינה פלסטינית' תוך המשך בנייה; https://en.wikipedia.org/wiki/Bennett_2026",
+     "confidence": "medium"
+    },
+    "T6": {
+     "score": -2,
+     "summary_he": "כינה את ההפיכה המשפטית 'מסוכנת' שתפגע ביסודות המדינה; בעד רפורמה מתונה בהסכמה בלבד.",
+     "evidence": "'תפגע ביסודות מדינת ישראל, בכלכלתה ובאזרחיה' (1.2023); תמך במתווה הנשיא הרצוג; Haaretz, https://www.haaretz.com/israel-news/2023-01-16/ty-article/.premium/former-israeli-pm-bennett-calls-netanyahus-judicial-overhaul-dangerous/00000185-bbeb-d471-afb7-bffbfb7c0000",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": 2,
+     "summary_he": "מצע בנט 2026: גיוס חובה לחרדים, 'חוק המשרתים' למיטיבי שרת, וחקירת 'חבלה בגיוס חרדים'.",
+     "evidence": "מצע Bennett 2026 — גיוס חרדים חובה + Servants Law (3.2026); https://en.wikipedia.org/wiki/Bennett_2026",
+     "confidence": "high"
+    },
+    "T8": {
+     "score": 1,
+     "summary_he": "הכריז באפריל 2026 על תמיכה בנישואים אזרחיים ובתחבורה ציבורית בשבת לפי החלטת רשויות מקומיות.",
+     "evidence": "'Naftali Bennett supports civil marriage, public transport on Shabbat' — Jerusalem Post, https://www.jpost.com/israel-news/politics-and-diplomacy/article-893632 (4.2026)",
+     "confidence": "high"
+    },
+    "T9": {
+     "score": 2,
+     "summary_he": "ליברל כלכלי מובהק: 'לשבור מונופולים, לפרק קרטלים, לפתוח את השוק' והורדת מסים.",
+     "evidence": "'לשבור מונופולים, לפרק קרטלים, לפתוח את השוק' (2.2026); מצע בנט 2026 כולל הפחתות מס; https://en.wikipedia.org/wiki/Bennett_2026",
+     "confidence": "high"
+    },
+    "T10": {
+     "score": -1,
+     "summary_he": "מטפל ביוקר המחיה דרך תחרות ופתיחת השוק — לא דרך פיקוח מחירים והתערבות ממשלתית מסיבית.",
+     "evidence": "תוכניתו מבוססת שבירת מונופולים ופתיחת שוק (2.2026), בהמשך למדיניות פתיחת היבוא שלו כשר כלכלה וכראש ממשלה; https://en.wikipedia.org/wiki/Bennett_2026",
+     "confidence": "medium"
+    },
+    "T11": {
+     "score": 2,
+     "summary_he": "ממשלתו אישרה את תוכנית החומש הגדולה בהיסטוריה לחברה הערבית (~30 מיליארד ש\"ח) ותוכנית ייעודית למאבק בפשיעה.",
+     "evidence": "החלטת ממשלה 550 — תוכנית חומש של כ-30 מיליארד ש\"ח לחברה הערבית + ~2.5 מיליארד למאבק בפשיעה (10.2021, ממשלת בנט-לפיד); דיווחי Times of Israel",
+     "confidence": "high"
+    },
+    "T12": {
+     "score": 2,
+     "summary_he": "הצהיר שהוא תומך בעונש מוות למחבלים — יהודים וערבים כאחד.",
+     "evidence": "'Bennett supports death penalty for all terrorists – Jewish and Arab' — Jerusalem Post, https://www.jpost.com/Israel-News/Politics-And-Diplomacy/Bennett-supports-death-penalty-for-all-terrorists-Jewish-and-Arab-411577 (2015)",
+     "confidence": "high"
+    },
+    "T13": {
+     "score": 2,
+     "summary_he": "נץ איראן מובהק ('דוקטרינת התמנון'), הילל את התקיפות באיראן ולוקח עליהן קרדיט.",
+     "evidence": "'Bennett... hails and claims credit for Iran strikes' — Times of Israel, https://www.timesofisrael.com/bennett-urges-hostage-deal-slams-gaza-war-policy-hails-and-claims-credit-for-iran-strikes/ (2025)",
+     "confidence": "high"
+    },
+    "T14": {
+     "score": -2,
+     "summary_he": "שלל ישיבה בממשלה בראשות נתניהו והצהיר שנתניהו 'קורע את מדינת ישראל' ויוחלף.",
+     "evidence": "שלל ישיבה בממשלת נתניהו (2.2026), JPost, https://www.jpost.com/israel-news/politics-and-diplomacy/article-886972; 'נתניהו קורע את מדינת ישראל', Times of Israel, https://www.timesofisrael.com/bennett-says-netanyahu-tearing-the-state-of-israel-apart-vows-to-replace-him/ (3.2026)",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": 1,
+     "summary_he": "יצא ביוני 2026 בעד שוויון זכויות לזוגות חד-מיניים ונישואים אזרחיים — שינוי מעמדתו הדתית בעבר.",
+     "evidence": "'Naftali Bennett comes out in favor of equal rights for same-sex couples' — Haaretz, https://www.haaretz.com/israel-news/2026-06-01/ty-article/.premium/naftali-bennett-comes-out-in-favor-of-equal-rights-for-same-sex-couples/0000019e-83fb-d126-a99e-e3ffda160000 (1.6.2026)",
+     "confidence": "high"
+    },
+    "T16": {
+     "score": 0,
+     "summary_he": "לא אותרה עמדה מוצהרת של בנט על ביטול סעיף הנכד.",
+     "evidence": "לא נמצאו התבטאויות מתועדות על סעיף הנכד בחוק השבות",
+     "confidence": "low"
+    }
+   },
+   "color": "#0fb5a5",
+   "initials": "נב"
+  },
+  {
+   "id": "eisenkot",
+   "name_he": "גדי איזנקוט",
+   "party_he": "ישר!",
+   "bio_he": "רמטכ\"ל לשעבר, חבר קבינט המלחמה אחרי 7 באוקטובר, שפרש מהמחנה הממלכתי ומהכנסת ב-2025 והקים בספטמבר 2025 את מפלגת \"ישר!\". השיק ביוני 2026 קמפיין לראשות הממשלה בהבטחה להיות \"ראש ממשלה של כל הישראלים\", ובסקרי יולי 2026 עקף לראשונה את הליכוד. מצעו: ועדת חקירה ממלכתית ל-7.10, שירות לכולם (כולל חרדים וערבים), חוקה, ליבה בכל בתי הספר ומיליון עולים בעשור. איבד את בנו גל ואת אחיינו בלחימה בעזה.",
+   "positions": {
+    "T1": {
+     "score": 2,
+     "summary_he": "עמדתו העקבית בקבינט: החטופים יחזרו חיים רק בעסקה הכרוכה בעצירה משמעותית של הלחימה — חובה מוסרית עליונה.",
+     "evidence": "'החטופים יחזרו חיים רק אם תהיה עסקה, הכרוכה בעצירה משמעותית של הלחימה' (1.2024); 'לחלץ אזרחים לפני הריגת אויב'; Times of Israel, https://www.timesofisrael.com/eisenkot-says-pms-statement-that-israel-would-agree-to-partial-hostage-deal-is-contrary-to-war-cabinet-decision/",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": -2,
+     "summary_he": "מתנגד לכיבוש קבע ולהתיישבות בעזה; תוקף את שאיפות הימין הקיצוני שעיוותו את ניהול המלחמה.",
+     "evidence": "גינה שרים שהשתתפו בכנס ההתיישבות בעזה: 'לא למדו דבר'; Times of Israel, https://www.timesofisrael.com/eisenkot-pans-coalition-colleagues-for-attending-event-championing-gaza-resettlement/ (2024)",
+     "confidence": "high"
+    },
+    "T3": {
+     "score": -2,
+     "summary_he": "מתנגד: גינה בחריפות את כנס 'ההגירה מרצון' וההתיישבות מחדש בעזה.",
+     "evidence": "תקף שרים וח\"כים שקראו ל'עידוד הגירה מרצון' — 'לא למדו דבר אחד מאירועי השנה האחרונה'; Times of Israel, https://www.timesofisrael.com/eisenkot-pans-coalition-colleagues-for-attending-event-championing-gaza-resettlement/ (1.2024)",
+     "confidence": "high"
+    },
+    "T4": {
+     "score": 1,
+     "summary_he": "תומך עקרונית בהפרדה/שתי מדינות עם שמירת גושים ובקעת הירדן, אך קבע שאחרי 7.10 הדיון במדינה פלסטינית 'לא רלוונטי' כעת.",
+     "evidence": "דוגל בשתי מדינות עם שמירת בקעת הירדן וגושי ההתיישבות, https://en.wikipedia.org/wiki/Gadi_Eisenkot; 'מדינה פלסטינית לא רלוונטית במציאות שאחרי 7.10', Times of Israel, https://www.timesofisrael.com/eisenkot-says-establishment-of-palestinian-state-irrelevant-in-post-oct-7-reality/ (3.2025)",
+     "confidence": "medium"
+    },
+    "T5": {
+     "score": -2,
+     "summary_he": "מתנגד לסיפוח הגדה; חזונו הוא הפרדה מהפלסטינים תוך שמירת גושים בלבד.",
+     "evidence": "עמדתו המתועדת: שתי מדינות עם שמירת גושי התיישבות ובקעת הירדן — לא סיפוח; https://en.wikipedia.org/wiki/Gadi_Eisenkot",
+     "confidence": "medium"
+    },
+    "T6": {
+     "score": -2,
+     "summary_he": "נלחם בהפיכה המשפטית; מצע ישר!: עצמאות שיפוטית, הפרדת רשויות, חוקה והגבלת כהונות.",
+     "evidence": "מצע ישר!: 'שמירה על עצמאות המחוקק והרשות השופטת, הגנה על זכויות מיעוט וזכויות אדם, הגבלת כהונות רה\"מ'; https://en.wikipedia.org/wiki/Yashar_(political_party) (2025)",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": 2,
+     "summary_he": "'שירות לכולם' — גיוס חרדים וערבים לשוויון בנטל, עם פטור מוגבל ל-3% מצטייני תורה בלבד; תנאי סף לשותפות קואליציונית.",
+     "evidence": "מצע ישר!: שילוב חרדים וערבים בשירות; פטור ל-3% בלבד; הציב לש\"ס תנאי של 'שירות לאומי לכל הישראלים'; Times of Israel, https://www.timesofisrael.com/top-shas-rabbi-signals-openness-to-working-with-eisenkot-rather-than-netanyahu-after-election/ (2025-2026)",
+     "confidence": "high"
+    },
+    "T8": {
+     "score": 0,
+     "summary_he": "מדבר על 'יהדות מכילה ומכבדת' וחופש אורח חיים, אך לא אותרה התחייבות מפורשת לתחב\"צ בשבת ונישואים אזרחיים.",
+     "evidence": "מצע ישר!: 'יהדות מכילה ומכבדת' — ללא סעיף מפורש על שבת/נישואים אזרחיים; https://en.wikipedia.org/wiki/Yashar_(political_party)",
+     "confidence": "low"
+    },
+    "T9": {
+     "score": 0,
+     "summary_he": "אין עמדה שוקית מובהקת; מצעו משלב תמריצי מדינה והשקעות ציבוריות עם שילוב בשוק העבודה.",
+     "evidence": "מצע ישר!: תמריצי מדינה, השקעה בתחבורה, חינוך, בריאות ופריפריה — לא אג'נדת שוק חופשי מובהקת; https://en.wikipedia.org/wiki/Yashar_(political_party)",
+     "confidence": "low"
+    },
+    "T10": {
+     "score": 1,
+     "summary_he": "בעד השקעה ממשלתית רחבה בתחבורה, חינוך, בריאות ופיתוח הפריפריה כמענה ליוקר המחיה.",
+     "evidence": "מצע ישר!, פרק יוקר המחיה: השקעות מדינה בתשתיות, חינוך, בריאות ופריפריה; https://en.wikipedia.org/wiki/Yashar_(political_party) (2025)",
+     "confidence": "medium"
+    },
+    "T11": {
+     "score": 2,
+     "summary_he": "מצעו מציב את המאבק בפשיעה ברחוב — בדגש על החברה הערבית — ואת שילוב ערביי ישראל כיעד לאומי.",
+     "evidence": "מצע ישר!: אכיפה נגד פשיעת רחוב 'בייחוד ביישובי החברה הערבית' ושילוב ערבים בשירות ובכלכלה; https://en.wikipedia.org/wiki/Yashar_(political_party) (2025)",
+     "confidence": "high"
+    },
+    "T12": {
+     "score": 0,
+     "summary_he": "לא אותרה עמדה אישית מוצהרת; המערכת הביטחונית שבה צמח התנגדה בעקביות לחוק עונש המוות.",
+     "evidence": "לא נמצאה התבטאות ישירה על חוק עונש מוות למחבלים (2023–2026); לא היה ח\"כ בהצבעות",
+     "confidence": "low"
+    },
+    "T13": {
+     "score": -1,
+     "summary_he": "זהיר במובהק באיראן: התנגד בקבינט לתקיפות מסלימות (S-300 באיספהאן) וחשש מהידרדרות אזורית.",
+     "evidence": "בדיוני הקבינט 2024: איזנקוט התנגד בעקביות לתקיפת ה-S-300 באיספהאן; Jerusalem Post, https://www.jpost.com/israel-news/defense-news/article-858271; נתניהו תוקף אותו כ'זהיר מדי' (ToI, 2026)",
+     "confidence": "medium"
+    },
+    "T14": {
+     "score": -1,
+     "summary_he": "'מי שהיה בתפקיד ב-7.10 חייב ללכת... אני לא מחרים אותו, אבל הוא חייב להתפטר' — לא פוסל ישיבה אך דורש החלפתו.",
+     "evidence": "'הוא חייב להיות מוחלף... אני לא מחרים אותו, אבל אני חושב שהוא חייב להתפטר' — רדיו 103FM; Times of Israel, https://www.timesofisrael.com/liveblog_entry/eisenkot-does-not-rule-out-sitting-with-netanyahu-but-says-he-needs-to-be-replaced/",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": 0,
+     "summary_he": "מצעו מגן על זכויות מיעוטים וזכויות אדם, אך לא אותרה עמדה מפורשת על נישואים חד-מיניים.",
+     "evidence": "מצע ישר! כולל 'הגנה על זכויות מיעוט וזכויות אדם' ללא התייחסות מפורשת ללהט\"ב; https://en.wikipedia.org/wiki/Yashar_(political_party)",
+     "confidence": "low"
+    },
+    "T16": {
+     "score": 0,
+     "summary_he": "אין עמדה מוצהרת; מצע העלייה השאפתני שלו (מיליון עולים בעשור) מרמז על אי-צמצום חוק השבות.",
+     "evidence": "מצע ישר!: יעד מיליון עולים ב-10 שנים ומודל 'תושבות היברידית' — ללא התייחסות ישירה לסעיף הנכד; https://en.wikipedia.org/wiki/Yashar_(political_party)",
+     "confidence": "low"
+    }
+   },
+   "color": "#f0a33c",
+   "initials": "גא"
+  },
+  {
+   "id": "golan",
+   "name_he": "יאיר גולן",
+   "party_he": "הדמוקרטים",
+   "bio_he": "אלוף במיל' וסגן הרמטכ\"ל לשעבר, שב-7 באוקטובר נסע דרומה בעצמו לחלץ נפגעים. יו\"ר מפלגת הדמוקרטים, שקמה ביולי 2024 ממיזוג העבודה ומרצ, והוביל אותה לפריימריז עם כ-85,000 מתפקדים לקראת בחירות אוקטובר 2026. קמפיין 2026 שלו ממוקד בהחלפת ממשלת נתניהו, שיקום הדמוקרטיה, גיוס שוויוני והיפרדות מדינית מהפלסטינים. מציג את הדמוקרטים כ\"מפלגה הציונית היחידה שמתנגדת לכיבוש\".",
+   "positions": {
+    "T1": {
+     "score": 2,
+     "summary_he": "תמך בעסקה מעל הכול: 'לסיים את המלחמה ולהחזיר את כל החטופים במהלך אחד', ובירך על העסקה כ'ניצחון העם'.",
+     "evidence": "'חמאס הובס צבאית — עלינו לסיים את המלחמה ולהשיב את כל החטופים במהלך מכריע אחד'; על השחרור: 'ניצחון העם'; Times of Israel, https://www.timesofisrael.com/liveblog_entry/left-wing-leader-yair-golan-praises-hostage-release-a-victory-of-the-people/ (10.2025)",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": -2,
+     "summary_he": "מתנגד לשליטה צבאית קבועה ולהתיישבות מחודשת בעזה; לדבריו כיבוש עזה עולה 'בדם חטופים וחיילים'.",
+     "evidence": "הסכם המיזוג/מצע הדמוקרטים: התנגדות לכיבוש עזה ולהתנחלות בה, 'שיקום עזה הוא אינטרס ישראלי'; https://en.wikipedia.org/wiki/The_Democrats_(Israel) (2024)",
+     "confidence": "high"
+    },
+    "T3": {
+     "score": -2,
+     "summary_he": "מתנגד בחריפות לטרנספר: 'מדינה שפויה לא עוסקת בעקירה המונית של אוכלוסייה'.",
+     "evidence": "ריאיון רדיו 20.5.2025: 'מדינה שפויה... לא עוסקת בעקירה המונית של אוכלוסייה'; Times of Israel, https://www.timesofisrael.com/after-controversy-yair-golan-says-of-course-israel-doesnt-kill-gaza-babies-as-a-hobby/",
+     "confidence": "high"
+    },
+    "T4": {
+     "score": 2,
+     "summary_he": "תומך מובהק בפתרון שתי המדינות והיפרדות מהפלסטינים; מציג זאת כליבת המצע.",
+     "evidence": "מצע הדמוקרטים תומך רשמית בשתי מדינות; גולן: הדמוקרטים היא 'המפלגה הציונית היחידה שמתנגדת לכיבוש'; https://en.wikipedia.org/wiki/The_Democrats_(Israel); Haaretz (20.5.2026)",
+     "confidence": "high"
+    },
+    "T5": {
+     "score": -2,
+     "summary_he": "מתנגד לסיפוח ולהרחבת התנחלויות; התחייב שממשלה בראשותו לא תממן התנחלויות.",
+     "evidence": "'Yair Golan vows not to fund settlements if he comes to power'; Times of Israel, https://www.timesofisrael.com/yair-golan-vows-not-to-fund-settlements-if-he-comes-to-power/ (2025)",
+     "confidence": "high"
+    },
+    "T6": {
+     "score": -2,
+     "summary_he": "מתנגד חריף להפיכה המשטרית; המפלגה קמה סביב המאבק בה ותומכת בעצמאות שיפוטית.",
+     "evidence": "הסכם המיזוג של הדמוקרטים: התנגדות למהפכה המשפטית של 2023 ותמיכה בהפרדת רשויות ועצמאות שיפוטית; https://en.wikipedia.org/wiki/The_Democrats_(Israel) (2024)",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": 2,
+     "summary_he": "דורש גיוס חרדים מלא עם סנקציות אישיות: 'בממשלה הבאה נדאג שהחרדים יתגייסו'.",
+     "evidence": "על חוק ביסמוט: 'חוק שמכשיר השתמטות... חוק בלי סנקציות אישיות'; 'כולם צריכים לשרת'; Times of Israel, https://www.timesofisrael.com/liveblog_entry/slamming-proposed-draft-law-yair-golan-says-no-haredi-men-should-be-exempt-from-military-service/ (2025)",
+     "confidence": "high"
+    },
+    "T8": {
+     "score": 2,
+     "summary_he": "תומך בתחבורה ציבורית בשבת לפי צביון היישוב ובנישואים אזרחיים: 'נישואים אזרחיים במדינה ליברלית דמוקרטית הם חיוניים'.",
+     "evidence": "'רק אם נהיה גדולים בממשלה הבאה יהיו סוף סוף נישואים אזרחיים'; מצע: תחב\"צ בשבת לפי אופי הרשות המקומית; המכון הישראלי לדמוקרטיה, https://www.idi.org.il/policy/parties-and-elections/parties/democrats/ (2025-2026)",
+     "confidence": "high"
+    },
+    "T9": {
+     "score": -2,
+     "summary_he": "סוציאל-דמוקרט מוצהר: נגד הפרטות, בעד מדינת רווחה, איגודי עובדים ושירותים ציבוריים.",
+     "evidence": "מצע הדמוקרטים: גישה סוציאל-דמוקרטית, התנגדות להפרטת השירותים הציבוריים, מדינת רווחה ובריאות וחינוך ציבוריים; https://en.wikipedia.org/wiki/The_Democrats_(Israel) (2024)",
+     "confidence": "high"
+    },
+    "T10": {
+     "score": 2,
+     "summary_he": "בעד התערבות ממשלתית אקטיבית: דיור בר-השגה, דיור ציבורי וחיזוק מדינת הרווחה.",
+     "evidence": "מצע הדמוקרטים: דיור בר-השגה, מדינת רווחה, בריאות וחינוך ציבוריים, נגד הפרטה; https://en.wikipedia.org/wiki/The_Democrats_(Israel) (2024)",
+     "confidence": "high"
+    },
+    "T11": {
+     "score": 1,
+     "summary_he": "תומך בשוויון אזרחי מלא ובביטול חוק הלאום המפלה; שותפות יהודית-ערבית היא חלק מהקמפיין, אך אין תוכנית תקציבית מפורטת מתועדת.",
+     "evidence": "מצע הדמוקרטים תומך בביטול חוק הלאום כמפלה נגד לא-יהודים ובשוויון אזרחי; https://en.wikipedia.org/wiki/The_Democrats_(Israel) (2024)",
+     "confidence": "medium"
+    },
+    "T12": {
+     "score": -2,
+     "summary_he": "מתנגד לחוק עונש המוות למחבלים; מפלגתו הצטרפה לעתירה לבג\"ץ לביטולו.",
+     "evidence": "אחרי אישור החוק ב-30.3.2026, הדמוקרטים הודיעו יחד עם יש עתיד וחד\"ש-תע\"ל על עתירה לבג\"ץ; https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law",
+     "confidence": "high"
+    },
+    "T13": {
+     "score": 1,
+     "summary_he": "נץ ביטחוני שתמך במבצעים נגד איראן ('גיבוי מלא') אך תובע בחינה מדינית של ההסדר; לא דוגל במלחמה מתמשכת.",
+     "evidence": "יוני 2025: נתן 'גיבוי מלא' לכוחות הביטחון במתקפה על איראן; קרא יחד עם לפיד לסיום הלחימה עם הפסקת האש; Times of Israel, https://www.timesofisrael.com/israeli-opposition-leaders-rally-behind-government-as-israel-and-us-strike-iran/",
+     "confidence": "medium"
+    },
+    "T14": {
+     "score": -2,
+     "summary_he": "רואה בנתניהו כישלון ומוביל את המאבק להחלפתו; לא יישב בממשלה בראשותו.",
+     "evidence": "גולן: 'נתניהו כישלון'; Times of Israel, https://www.timesofisrael.com/liveblog_entry/yair-golan-deal-erases-tremendous-military-achievements-netanyahu-a-failure/; כל הקמפיין ממוקד בהחלפת ממשלת נתניהו",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": 2,
+     "summary_he": "תומך מלא בשוויון להט\"ב ונישואים לכל זוג; ממשיך את דרך מרצ שמוזגה לתוך המפלגה.",
+     "evidence": "המפלגה מתחייבת לנישואים אזרחיים לכל הזוגות; ח\"כ גלעד קריב: 'רק מפלגת הדמוקרטים גדולה תבטיח תחבורה ציבורית בשבת ונישואים אזרחיים'; https://www.idi.org.il/policy/parties-and-elections/parties/democrats/",
+     "confidence": "high"
+    },
+    "T16": {
+     "score": -2,
+     "summary_he": "מתנגד לביטול סעיף הנכד; במפלגתו תקפו את היוזמה כפגיעה בעולי בריה\"מ.",
+     "evidence": "ח\"כ גלעד קריב נגד יוזמת הביטול: 'תרומתם של 1.2 מיליון דוברי רוסית... לא תסולא בפז'; Times of Israel, https://www.timesofisrael.com/bill-to-limit-law-of-return-shot-down-despite-support-from-ultra-orthodox-mks/",
+     "confidence": "medium"
+    }
+   },
+   "color": "#e2526b",
+   "initials": "יג"
+  },
+  {
+   "id": "gantz",
+   "name_he": "בני גנץ",
+   "party_he": "כחול לבן — המחנה הממלכתי",
+   "bio_he": "רמטכ\"ל לשעבר, שר ביטחון לשעבר וחבר קבינט המלחמה עד התפטרותו ביוני 2024 בשל היעדר תוכנית ליום שאחרי בעזה. יו\"ר כחול לבן (המחנה הממלכתי), שאיבד את איזנקוט ב-2025 ומדשדש בסקרי 2026 סביב אחוז החסימה. בקמפיין 2026 קורא לנטוש את \"רק לא ביבי\" לטובת \"רק לא הקיצונים\", ומצהיר שיצטרף לקואליציה בראשות נתניהו ללא בן גביר וסמוטריץ' אם לגוש החלופי לא יהיה רוב.",
+   "positions": {
+    "T1": {
+     "score": 1,
+     "summary_he": "דחף לעסקאות חטופים והתפטר מהממשלה על רקע ניהול המלחמה, אך לצד יעד פירוק חמאס.",
+     "evidence": "התפטר 9.6.2024 מקבינט המלחמה בדרישה לתוכנית הכוללת החזרת חטופים; Times of Israel, https://www.timesofisrael.com/urging-elections-gantz-quits-wartime-government-accuses-pm-of-botching-war-effort/",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": -2,
+     "summary_he": "מתנגד לשלטון צבאי קבוע ולהתיישבות בעזה; הציע ממשל אזרחי בינלאומי ליום שאחרי.",
+     "evidence": "תוכנית 6 הנקודות שלו (5.2024) כללה ממשל אזרחי בינלאומי בעזה; גינה את כנס ההתיישבות בעזה; https://www.timesofisrael.com/eisenkot-pans-coalition-colleagues-for-attending-event-championing-gaza-resettlement/",
+     "confidence": "high"
+    },
+    "T3": {
+     "score": 0,
+     "summary_he": "איתותים סותרים: שיבח את תוכנית טראמפ כ'חשיבה יצירתית ומקורית' אך גינה את כנס עידוד ההגירה של הימין.",
+     "evidence": "על תוכנית טראמפ: 'חשיבה יצירתית, מקורית ומסקרנת' (2.2025), Times of Israel, https://www.timesofisrael.com/trumps-plan-to-relocate-gazans-stuns-the-region-but-it-faces-serious-obstacles/; מנגד גינה את כנס ההתיישבות (1.2024)",
+     "confidence": "low"
+    },
+    "T4": {
+     "score": -1,
+     "summary_he": "בעד 'הפרדה' מהפלסטינים אך נגד מדינה פלסטינית כפויה: 'לא נאפשר לשום גורם חיצוני לכפות עלינו מדינה פלסטינית'.",
+     "evidence": "'לא נאפשר לשום כוח חיצוני, ידידותי או עוין, לכפות עלינו מדינה פלסטינית' (2024); CNN, https://www.cnn.com/2024/06/09/middleeast/benny-gantz-resignation-post-war-plan-gaza-intl-latam/index.html",
+     "confidence": "medium"
+    },
+    "T5": {
+     "score": -1,
+     "summary_he": "נגד סיפוח חד-צדדי רחב; בעד חיזוק גושי ההתיישבות ובקעת הירדן בלבד ו'בלי התנתקות שנייה'.",
+     "evidence": "מצע כחול לבן: 'חיזוק גושי ההתיישבות ובקעת הירדן, העמקת ההפרדה מהפלסטינים, לא תהיה התנתקות שנייה'; Times of Israel, https://www.timesofisrael.com/blue-and-white-releases-its-political-platform-no-second-disengagement/ (3.2019)",
+     "confidence": "medium"
+    },
+    "T6": {
+     "score": -2,
+     "summary_he": "התנגד בחריפות להפיכה המשפטית ולפסקת ההתגברות; בעד הסדרה רחבה בהסכמה בלבד.",
+     "evidence": "הוביל את ההתנגדות ב-2023 והשתתף בשיחות הנשיא; Times of Israel, https://www.timesofisrael.com/liveblog_entry/gantz-government-should-have-passed-haredi-conscription-law-instead-of-judicial-overhaul/",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": 2,
+     "summary_he": "'כולם חייבים לשרת': חוק השירות הישראלי שלו מחייב שירות לכל צעיר, כולל חרדים; מפלגתו כינתה את חוק הפטור 'כתם היסטורי'.",
+     "evidence": "הצעת 'חוק השירות הישראלי' של המחנה הממלכתי (2024); הזהיר את נתניהו מקידום חוק פטור; Times of Israel, https://www.timesofisrael.com/gantz-warns-netanyahu-not-to-advance-law-that-would-continue-haredi-draft-exemptions/",
+     "confidence": "high"
+    },
+    "T8": {
+     "score": 1,
+     "summary_he": "מצע כחול לבן: תחבורה ציבורית בשבת בהחלטת רשויות מקומיות ונישואים אזרחיים/ברית זוגיות.",
+     "evidence": "מצע כחול לבן 2019 — תחב\"צ מקומית בשבת וברית זוגיות; Times of Israel, https://www.timesofisrael.com/blue-and-white-releases-its-political-platform-no-second-disengagement/",
+     "confidence": "high"
+    },
+    "T9": {
+     "score": 0,
+     "summary_he": "מרכזן כלכלי ללא אג'נדה שוקית או רווחתית מובהקת.",
+     "evidence": "לא אותרה עמדה כלכלית עקבית מתועדת בציר שוק חופשי/מדינת רווחה (2024–2026)",
+     "confidence": "low"
+    },
+    "T10": {
+     "score": 0,
+     "summary_he": "לא אותרה עמדה מוצהרת בעד התערבות אגרסיבית ביוקר המחיה והדיור.",
+     "evidence": "לא נמצאו התבטאויות מתועדות עדכניות בנושא פיקוח מחירים/דיור ציבורי מסיבי",
+     "confidence": "low"
+    },
+    "T11": {
+     "score": 1,
+     "summary_he": "היה שר בכיר בממשלה שאישרה את תוכנית החומש לחברה הערבית, אך מתנה שותפות פוליטית ב'ממשלה ציונית' ללא מפלגות ערביות.",
+     "evidence": "שותף בממשלת בנט-לפיד שאישרה את החלטה 550 (~30 מיליארד ש\"ח, 10.2021); ב-2026 קורא ל'ממשלה ציונית רחבה' (Wikipedia: 2026 Israeli legislative election)",
+     "confidence": "medium"
+    },
+    "T12": {
+     "score": -2,
+     "summary_he": "הצביע נגד חוק עונש מוות למחבלים בקריאה ראשונה.",
+     "evidence": "'יו\"ר כחול לבן בני גנץ הצביע נגד ההצעה' — קריאה ראשונה 39-16 (11.2025); Times of Israel, https://www.timesofisrael.com/knesset-advances-bill-mandating-death-penalty-for-terrorists-who-killed-israelis/",
+     "confidence": "high"
+    },
+    "T13": {
+     "score": 2,
+     "summary_he": "נץ איראני בקבינט: תמך בתקיפת מערך ה-S-300 המגן על אתר הגרעין באיספהאן, בניגוד לאיזנקוט.",
+     "evidence": "'גנץ תמך בתקיפה כזו, בעוד איזנקוט המשיך להתנגד לה' — דיוני הקבינט 2024-2025; Jerusalem Post, https://www.jpost.com/israel-news/defense-news/article-858271",
+     "confidence": "medium"
+    },
+    "T14": {
+     "score": 1,
+     "summary_he": "הצהיר שיצטרף לקואליציה בראשות נתניהו ללא הקיצונים אם לגוש החלופי לא יהיה רוב: 'לנטוש את רק לא ביבי'.",
+     "evidence": "'הגיע הזמן לנטוש את רעיון רק לא ביבי ולעבור לרק לא קיצונים' (1.2026); Jerusalem Post, https://www.jpost.com/israel-news/politics-and-diplomacy/article-883410; The JC, https://www.thejc.com/news/israel/gantz-join-netanyahu-opposition-majority-israeli-elections-mj6kzqm0",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": 2,
+     "summary_he": "מצע מפלגתו מחייב ברית זוגיות לזוגות חד-מיניים ופונדקאות לזוגות גברים.",
+     "evidence": "מצע כחול לבן: חקיקת ברית זוגיות ופונדקאות לזוגות חד-מיניים; Times of Israel, https://www.timesofisrael.com/blue-and-white-releases-its-political-platform-no-second-disengagement/ (3.2019)",
+     "confidence": "high"
+    },
+    "T16": {
+     "score": -2,
+     "summary_he": "'אני חושב שצריך לשמור על סעיף הנכד' — התנגד בפומבי לשינוי חוק השבות, גם מול חבר מפלגתו.",
+     "evidence": "'Rebutting party member, Gantz opposes altering Law of Return's grandchild clause'; Times of Israel, https://www.timesofisrael.com/liveblog_entry/rebutting-party-member-gantz-opposes-altering-law-of-returns-grandchild-clause/",
+     "confidence": "high"
+    }
+   },
+   "color": "#3752a3",
+   "initials": "בג"
+  },
+  {
+   "id": "lieberman",
+   "name_he": "אביגדור ליברמן",
+   "party_he": "ישראל ביתנו",
+   "bio_he": "יו\"ר ישראל ביתנו, שר ביטחון ושר אוצר לשעבר, כיום ממנהיגי האופוזיציה לנתניהו. מזוהה עם ציבור דוברי הרוסית אך פונה לקהל חילוני-ימני רחב; בסקרים לקראת אוקטובר 2026 מקבל 9-10 מנדטים והצהיר שמטרתו להיות ראש ממשלה. דגלי הקמפיין: גיוס חרדים ללא פטורים, הפרדת דת ומדינה, וסירוב מוחלט לשבת בממשלה בראשות נתניהו.",
+   "positions": {
+    "T1": {
+     "score": 2,
+     "summary_he": "קרא במפורש לעסקת חטופים 'גם אם משמעותה סיום המלחמה' ושיבח את טראמפ על השבתם.",
+     "evidence": "Times of Israel liveblog: 'Liberman calls for hostage deal even if it ends the war', https://www.timesofisrael.com/liveblog_entry/liberman-slams-government-for-continuing-aid-to-gaza-calls-for-hostage-deal-even-if-it-ends-the-war/ (2025)",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": -2,
+     "summary_he": "מתנגד לשליטה ישראלית קבועה בעזה ולחידוש ההתיישבות — תוכניתו: ניתוק מוחלט והעברת האחריות למצרים.",
+     "evidence": "תוכנית עזה שפרסם: הפרדה מלאה מעזה והעברת אחריות לכיוון מצרים, לא שלטון צבאי או התנחלויות; JPost, https://www.jpost.com/israel-news/article-844320 (2.2025)",
+     "confidence": "medium"
+    },
+    "T3": {
+     "score": 2,
+     "summary_he": "תומך ותיק בהגירה מעזה — דחף תוכנית העברת אוכלוסייה וטען ש'90% מהעזתים יעזבו אם מצרים תפתח את השער'.",
+     "evidence": "'As Trump envoy set to visit, Liberman pushes population transfer plan'; 'ברגע שיפתחו את השערים, 90% מהעזתים' יעזבו; Times of Israel, https://www.timesofisrael.com/as-trump-envoy-set-to-visit-liberman-pushes-population-transfer-plan/ (2025)",
+     "confidence": "high"
+    },
+    "T4": {
+     "score": 0,
+     "summary_he": "היסטורית תמך בהסדר עם חילופי שטחים ואוכלוסין (תוכנית ליברמן), אך כיום נמנע מלהתחייב למדינה פלסטינית.",
+     "evidence": "תוכנית ליברמן: חילופי שטחים ואוכלוסין במסגרת הסדר קבע, https://en.wikipedia.org/wiki/Lieberman_Plan; בקמפיין 2026 נמנע מהנושא; JPost, http://www.jpost.com/opinion/article-900792",
+     "confidence": "low"
+    },
+    "T5": {
+     "score": 0,
+     "summary_he": "תומך בסיפוח גושי התיישבות רק במסגרת הסדר עם חילופי שטחים; לא תומך בסיפוח חד-צדדי מלא בנוסח סמוטריץ'.",
+     "evidence": "דוגל בסיפוח גושים תוך ויתור על אזורים ערביים ('המשולש') במסגרת חילופין — לא סיפוח חד-צדדי; https://en.wikipedia.org/wiki/Lieberman_Plan",
+     "confidence": "medium"
+    },
+    "T6": {
+     "score": -1,
+     "summary_he": "התנגד להפיכה המשפטית של לוין-רוטמן והצביע נגדה מהאופוזיציה, אף שתמך היסטורית בריסון מסוים של בג\"ץ.",
+     "evidence": "ישראל ביתנו התנגדה להפיכה המשפטית 2023 מהאופוזיציה; מצע 2026: 'תמיכה במוסדות הדמוקרטיים והפרדת רשויות'; Steptoe, https://www.steptoe.com/en/news-publications/stepwise-risk-outlook/israels-2026-elections-the-political-landscape-and-strategic-outlook.html",
+     "confidence": "medium"
+    },
+    "T7": {
+     "score": 2,
+     "summary_he": "הדגל המרכזי שלו: גיוס חובה לחרדים ללא פטורים, עם שלילת כל סיוע כספי ממשתמטים.",
+     "evidence": "מצע: חקיקה ללא פטורים ומשתמטים 'ייחסמו מקבלת כל סיוע כספי מהמדינה'; הצעת חוק להרחבת הגיוס לחרדים; Times of Israel, https://www.timesofisrael.com/liveblog_entry/knesset-shoots-down-yisrael-beytenu-bill-extending-draft-to-haredi-arab-communities/",
+     "confidence": "high"
+    },
+    "T8": {
+     "score": 2,
+     "summary_he": "תומך ותיק בתחבורה ציבורית בשבת ובנישואים אזרחיים — הגיש חוק נישואים אזרחיים פעמיים.",
+     "evidence": "המפלגה: 'בעד שוויון מלא... כולל חוק נישואים וגירושים אזרחיים שהגשנו פעמיים'; הפרדת דת ומדינה ותחב\"צ בשבת במצע; Times of Israel, https://www.timesofisrael.com/yisrael-beytenu-lawmaker-says-party-to-establish-gay-caucus-after-elections/",
+     "confidence": "high"
+    },
+    "T9": {
+     "score": 1,
+     "summary_he": "כשר אוצר (2021-2022) קידם קו שוק חופשי: הורדת מכסים, 'מעבודה לרווחה', וקיצוץ קצבאות למי שאינו עובד.",
+     "evidence": "כשר אוצר קידם הורדת מכסים, רפורמות תחרות וקיצוץ תמיכות לאוכלוסיות שאינן עובדות; מתנגד לכלכלת הקצבאות החרדית; https://en.wikipedia.org/wiki/Yisrael_Beiteinu",
+     "confidence": "medium"
+    },
+    "T10": {
+     "score": -1,
+     "summary_he": "מעדיף פתיחת שווקים לתחרות והורדת מכסים על פני פיקוח מחירים ודיור ציבורי מסיבי.",
+     "evidence": "אג'נדת יוקר המחיה שלו כשר אוצר 2021-2022 התמקדה בליברליזציית יבוא ותחרות, לא בפיקוח מחירים; https://en.wikipedia.org/wiki/Avigdor_Lieberman",
+     "confidence": "medium"
+    },
+    "T11": {
+     "score": 1,
+     "summary_he": "דורש להפוך את המלחמה בפשיעה לעדיפות לאומית (תוספת 3 מיליארד ש\"ח, 3,000 שוטרים, שב\"כ), אך עוין את ההנהגה הערבית.",
+     "evidence": "הציע תוספת 3 מיליארד ש\"ח לביטחון פנים ו-3,000 שוטרים; קרא לשיתוף שב\"כ במאבק בפשיעה; היה שר אוצר כשאושרה תוכנית החומש (2021); JPost, https://www.jpost.com/israel-news/article-866262",
+     "confidence": "medium"
+    },
+    "T12": {
+     "score": 2,
+     "summary_he": "תומך ותיק בעונש מוות למחבלים — קידם זאת כשר ביטחון וזה סעיף קבוע במצע מפלגתו.",
+     "evidence": "קידם חקיקת עונש מוות למחבלים כשר ביטחון (הצעת 2018 עברה קריאה טרומית ביוזמתו); סעיף קבוע במצע; https://en.wikipedia.org/wiki/Yisrael_Beiteinu",
+     "confidence": "high"
+    },
+    "T13": {
+     "score": 2,
+     "summary_he": "נץ איראן מובהק: תקף את הפסקת האש עם איראן ו'עסקה מתגבשת' — דורש הכרעה ולא דיפלומטיה.",
+     "evidence": "'Liberman slams emerging Iran deal, accuses Netanyahu of failing to win war on any front'; Times of Israel, https://www.timesofisrael.com/liberman-slams-emerging-iran-deal-accuses-netanyahu-of-failing-to-win-war-on-any-front/ (2025-2026)",
+     "confidence": "high"
+    },
+    "T14": {
+     "score": -2,
+     "summary_he": "סירוב מוחלט: 'גם אם העולם יתהפך' נתניהו לא יכהן בשום תפקיד בממשלה הבאה; פתוח לליכוד רק 'ביום שאחרי נתניהו'.",
+     "evidence": "'גם אם העולם יתהפך' — נתניהו לא יכהן בשום תפקיד בממשלה הבאה; Times of Israel, https://www.timesofisrael.com/liveblog_entry/liberman-reiterates-yisrael-beytenu-could-partner-with-post-netanyahu-likud/; JPost, https://www.jpost.com/israel-news/politics-and-diplomacy/article-902069 (2026)",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": 2,
+     "summary_he": "תומך בנישואים חד-מיניים ובשוויון מלא ללהט\"ב — המפלגה הגישה חוק נישואים אזרחיים ומתכננת שדולה גאה.",
+     "evidence": "הביע תמיכה בנישואים חד-מיניים (2022) 'ללא יוצאים מן הכלל'; המפלגה בעד 'שוויון מלא לקהילה הגאה'; Times of Israel, https://www.timesofisrael.com/yisrael-beytenu-lawmaker-says-party-to-establish-gay-caucus-after-elections/",
+     "confidence": "high"
+    },
+    "T16": {
+     "score": -2,
+     "summary_he": "מתנגד חריף לביטול סעיף הנכד — אף הציע להרחיב את חוק השבות לנינים של יהודים.",
+     "evidence": "הציע כניסה קלה לנינים של יהודים (2022); תקף את ההבנות לביטול הסעיף: שינוי אומר לתפוצות 'אתם לא חלק מהמשפחה היהודית'; Times of Israel, https://www.timesofisrael.com/liberman-proposes-easy-entry-for-great-grandchildren-of-jews-in-wake-of-ukraine-war/",
+     "confidence": "high"
+    }
+   },
+   "color": "#6b8bb5",
+   "initials": "אל"
+  },
+  {
+   "id": "bengvir",
+   "name_he": "איתמר בן גביר",
+   "party_he": "עוצמה יהודית",
+   "bio_he": "השר לביטחון לאומי מאז דצמבר 2022, עם הפסקה קצרה בתחילת 2025 לאחר שהתפטר במחאה על עסקת חטופים וחזר עם חידוש הלחימה. מנהיג עוצמה יהודית, שהפך את המפלגה הקהניסטית לשעבר לכוח מרכזי בימין עם 9-10 מנדטים בסקרים לקראת בחירות אוקטובר 2026. הישגו המרכזי: חוק עונש מוות למחבלים. הקמפיין שלו ל-2026 מתמקד בריבונות, עידוד הגירה מעזה, עונש מוות ו'משילות'.",
+   "positions": {
+    "T1": {
+     "score": -2,
+     "summary_he": "התנגד בעקביות לעסקאות חטופים — התפטר מהממשלה על עסקת ינואר 2025 והצביע נגד עסקת אוקטובר 2025.",
+     "evidence": "התפטר על עסקת ינואר 2025; הצביע נגד עסקת טראמפ: 'נצביע נגד שחרור רוצחים'; Times of Israel, https://www.timesofisrael.com/liveblog_entry/ben-gvir-announces-his-party-will-oppose-ceasefire-and-hostage-release-deal/ (10.2025); Israel National News, https://www.israelnationalnews.com/news/402455",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": 2,
+     "summary_he": "קורא בגלוי לכיבוש עזה, שליטה צבאית קבועה וחידוש ההתיישבות היהודית ברצועה.",
+     "evidence": "נאם בכנסי ההתיישבות בעזה 2024-2025 וקרא 'לחזור הביתה' לעזה; Times of Israel, https://www.timesofisrael.com/ministers-call-for-resettling-gazas-palestinians-building-settlements-in-strip/",
+     "confidence": "high"
+    },
+    "T3": {
+     "score": 2,
+     "summary_he": "מהמובילים של קריאת 'עידוד הגירה מרצון' של תושבי עזה, מציג זאת כ'פתרון מוסרי'; תמך בהקמת מנהלת ההגירה.",
+     "evidence": "קרא שוב ושוב ל'עידוד הגירה מרצון' כמדיניות ממשלתית; תמך בהחלטת הממשלה על מנהלת הגירה (3.2025); CNN, https://www.cnn.com/2025/03/24/middleeast/israel-approves-proposal-to-facilitate-emigration-of-palestinians-from-gaza-intl (24.3.2025)",
+     "confidence": "high"
+    },
+    "T4": {
+     "score": -2,
+     "summary_he": "מתנגד חריף ומוחלט למדינה פלסטינית בכל תנאי.",
+     "evidence": "הצביע בעד החלטת הכנסת הדוחה מדינה פלסטינית (7.2024); מצע עוצמה יהודית קורא לריבונות ישראלית ביו\"ש; Israel Policy Forum 120 Project, https://israelpolicyforum.org/onetwenty/ (2026)",
+     "confidence": "high"
+    },
+    "T5": {
+     "score": 2,
+     "summary_he": "תומך בריבונות ישראלית מלאה ביהודה ושומרון והרחבת התיישבות מסיבית; דרש צעדי סיפוח כתנאי קואליציוני.",
+     "evidence": "מצע עוצמה יהודית: ריבונות על יו\"ש; דרש מבצע צבאי ביו\"ש וצעדי סיפוח; Times of Israel, https://www.timesofisrael.com/to-end-rift-ben-gvir-said-demanding-west-bank-op-unfreezing-of-overhaul-and-more/",
+     "confidence": "high"
+    },
+    "T6": {
+     "score": 2,
+     "summary_he": "תומך נלהב ברפורמה המשפטית ודרש 'להפשיר' אותה כתנאי קואליציוני.",
+     "evidence": "הצביע בעד חוק הסבירות (7.2023); דרש 'הפשרת המהפכה המשפטית'; Times of Israel, https://www.timesofisrael.com/to-end-rift-ben-gvir-said-demanding-west-bank-op-unfreezing-of-overhaul-and-more/",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": -1,
+     "summary_he": "בעד גיוס עקרונית אך מתנגד לכפייה וסנקציות; הצביע עם החרדים בחקיקה תומכת-פטור.",
+     "evidence": "'אני לא חושב שכפייה תעזור' — על גיוס חרדים; Times of Israel liveblog, https://www.timesofisrael.com/liveblog_entry/ben-gvir-on-haredi-draft-i-dont-think-coercion-will-help/ (2025)",
+     "confidence": "medium"
+    },
+    "T8": {
+     "score": -2,
+     "summary_he": "מתנגד לתחבורה ציבורית בשבת ולנישואים אזרחיים — שומר על צביון יהודי-אורתודוקסי של המדינה.",
+     "evidence": "מצע עוצמה יהודית מדגיש חיזוק הזהות היהודית; חתם על הסכמי 2022 המשמרים סטטוס-קוו דתי; דרש אי-הכרה בגיורים לא-אורתודוקסיים; Times of Israel, https://www.timesofisrael.com/even-among-its-advocates-changing-the-law-of-return-proves-trickier-than-expected/",
+     "confidence": "medium"
+    },
+    "T9": {
+     "score": -1,
+     "summary_he": "לא ליברל כלכלי — דורש הגדלת תקציבים סקטוריאליים למשטרה, נגב וגליל וכספים קואליציוניים.",
+     "evidence": "הצביע נגד חוק הרווחים הכלואים בדרישות תקציב משטרה (1.2025), JPost, https://www.jpost.com/israel-news/article-835816; התנגד לתקציב 2026 בשל היעדר כספים 'לייהוד הנגב והגליל', https://www.timesofisrael.com/ben-gvir-says-party-opposes-budget-over-lack-of-funds-to-judaize-negev-and-galilee/",
+     "confidence": "medium"
+    },
+    "T10": {
+     "score": 0,
+     "summary_he": "אין עמדה סדורה ומתועדת על פיקוח מחירים או דיור ציבורי מסיבי.",
+     "evidence": "לא נמצאה עמדת מצע מתועדת על פיקוח מחירים/דיור ציבורי (2024-2026); מאבקי התקציב שלו סביב משטרה והתיישבות",
+     "confidence": "low"
+    },
+    "T11": {
+     "score": -2,
+     "summary_he": "מתנגד להשקעה בחברה הערבית; תחת כהונתו כשר לביטחון לאומי הרצח בחברה הערבית שבר שיאים והוא הואשם בהזנחה מכוונת.",
+     "evidence": "כשר לביטחון לאומי 2023-2025 שיאי רצח בחברה הערבית; התנגד לתקציבי תוכנית החומש; רץ על 'ייהוד הנגב והגליל'; Times of Israel, https://www.timesofisrael.com/ben-gvir-says-party-opposes-budget-over-lack-of-funds-to-judaize-negev-and-galilee/",
+     "confidence": "medium"
+    },
+    "T12": {
+     "score": 2,
+     "summary_he": "חוק עונש מוות למחבלים הוא הדגל המרכזי שלו וההישג החקיקתי המזוהה איתו ביותר.",
+     "evidence": "העביר את חוק עונש המוות למחבלים (קידם 2023-2026 בדרישתו); Israel Policy Forum 120 Project, https://israelpolicyforum.org/onetwenty/ (2026)",
+     "confidence": "high"
+    },
+    "T13": {
+     "score": 2,
+     "summary_he": "תמך בהתקפות על איראן ביוני 2025 וקורא להמשך פעולה צבאית ולא לדיפלומטיה.",
+     "evidence": "חגג את תקיפות יוני 2025 והתנגד להפסקת אש 'בלי לסיים את העבודה'; עמדה עקבית של עוצמה יהודית (Times of Israel, 6.2025)",
+     "confidence": "medium"
+    },
+    "T14": {
+     "score": 2,
+     "summary_he": "שותף קבוע של נתניהו — חזר לממשלתו פעמיים ונשאר בגוש נתניהו.",
+     "evidence": "בממשלת נתניהו מדצמבר 2022, חזר במרץ 2025; גייס את יועץ נתניהו לשעבר עופר גולן לקמפיין; JPost, https://www.jpost.com/israel-news/politics-and-diplomacy/article-894350 (2026)",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": -2,
+     "summary_he": "מתנגד לנישואים חד-מיניים ולשוויון להט\"בי; היסטוריה ארוכה של פעילות נגד מצעדי הגאווה.",
+     "evidence": "רקורד ארוך של התארגנות נגד מצעד הגאווה בירושלים; מפלגתו מתנגדת לנישואים חד-מיניים; https://en.wikipedia.org/wiki/Itamar_Ben-Gvir",
+     "confidence": "high"
+    },
+    "T16": {
+     "score": 1,
+     "summary_he": "תומך בצמצום חוק השבות — דרש אי-הכרה בגיורים לא-אורתודוקסיים והיה שותף להבנות על שינוי סעיף הנכד.",
+     "evidence": "בשיחות הקואליציה 2022 דרש אי-הכרה בגיורים לא-אורתודוקסיים לעלייה; שותף להבנות על שינוי חוק השבות; Times of Israel, https://www.timesofisrael.com/even-among-its-advocates-changing-the-law-of-return-proves-trickier-than-expected/",
+     "confidence": "medium"
+    }
+   },
+   "color": "#c98f1e",
+   "initials": "אב"
+  },
+  {
+   "id": "smotrich",
+   "name_he": "בצלאל סמוטריץ'",
+   "party_he": "הציונות הדתית",
+   "bio_he": "שר האוצר ושר נוסף במשרד הביטחון האחראי על ההתיישבות, מנהיג הציונות הדתית. אידאולוג הסיפוח המוביל בישראל — הציג ב-2025 תוכנית להחלת ריבונות על 82% מיהודה ושומרון וקידם בפועל הרחבת התיישבות מסיבית. בסקרים לקראת אוקטובר 2026 מפלגתו מתנדנדת סביב אחוז החסימה. הקמפיין שלו: ריבונות לפני הבחירות, פירוק הרשות הפלסטינית וביטול הסכמי אוסלו.",
+   "positions": {
+    "T1": {
+     "score": -2,
+     "summary_he": "התנגד לעסקאות החטופים והצביע נגד עסקת אוקטובר 2025; כינה את תוכנית טראמפ 'כישלון מדיני'.",
+     "evidence": "הצביע נגד עסקת אוקטובר 2025 בקבינט: יש 'להמשיך לחתור... למיגור אמיתי של חמאס'; Times of Israel, https://www.timesofisrael.com/smotrich-says-he-will-oppose-hostage-deal-as-his-party-weighs-quitting-the-government/ (10.2025); JPost, https://www.jpost.com/israel-news/politics-and-diplomacy/article-869051",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": 2,
+     "summary_he": "תומך בכיבוש מלא של עזה, שליטה צבאית קבועה וחידוש ההתיישבות היהודית ברצועה.",
+     "evidence": "קרא 'לכבוש וליישב' את עזה; אמר שהגירת עזתים תאפשר הקמת התנחלויות מחדש ברצועה; Times of Israel, https://www.timesofisrael.com/ministers-call-for-resettling-gazas-palestinians-building-settlements-in-strip/ (2024-2025)",
+     "confidence": "high"
+    },
+    "T3": {
+     "score": 2,
+     "summary_he": "תומך נלהב בעידוד הגירה מעזה — ואף הרחיב את הרעיון גם לפלסטינים ביהודה ושומרון.",
+     "evidence": "תמך במנהלת ההגירה (3.2025); אמר שהממשלה הבאה צריכה 'לעודד הגירה' גם של פלסטינים ביו\"ש; Times of Israel, https://www.timesofisrael.com/smotrich-next-government-should-encourage-migration-of-west-bank-palestinians/amp/",
+     "confidence": "high"
+    },
+    "T4": {
+     "score": -2,
+     "summary_he": "מתנגד מוחלט למדינה פלסטינית — כל תוכנית הסיפוח שלו נועדה 'למנוע מדינה פלסטינית'.",
+     "evidence": "הציג תוכנית לסיפוח 82% מהגדה במפורש 'כדי למנוע מדינה פלסטינית' (9.2025); Times of Israel, https://www.timesofisrael.com/smotrich-proposes-annexing-82-of-west-bank-in-bid-to-prevent-palestinian-state/",
+     "confidence": "high"
+    },
+    "T5": {
+     "score": 2,
+     "summary_he": "האידאולוג המרכזי של הסיפוח: תוכנית ריבונות על 82% מהשטח, ביטול אוסלו ופירוק הרש\"פ.",
+     "evidence": "תוכנית 82% (9.2025); קריאה ביוני 2026 לפרק את הרש\"פ ולבטל את אוסלו; קידם 6,000 דירות בהתנחלויות לפני הבחירות; JPost, https://www.jpost.com/israel-news/article-896309 (6.2026); Times of Israel, https://www.timesofisrael.com/liveblog_entry/smotrich-signs-deal-to-advance-6000-apartments-in-settlement-calls-for-west-bank-annexation-before-election/",
+     "confidence": "high"
+    },
+    "T6": {
+     "score": 2,
+     "summary_he": "ממובילי הרפורמה המשפטית; מפלגתו (רוטמן) ניסחה חלק מרכזי מחקיקת ההפיכה המשפטית.",
+     "evidence": "שמחה רוטמן ממפלגתו עמד בראש ועדת החוקה שניסחה את ההפיכה; סמוטריץ' הצביע בעד חוק הסבירות (7.2023); https://en.wikipedia.org/wiki/Bezalel_Smotrich",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": 0,
+     "summary_he": "רטוריקה בעד גיוס ('חובה, זכות ומצווה') אך בפועל נשאר בקואליציה שקידמה חוק פטור והקלת סנקציות.",
+     "evidence": "אמר ששירות צה\"ל הוא 'חובה, זכות ומצווה' ושמפלגתו תצביע רק לחוק שיביא 'גיוס אמיתי ומהיר' — אך נשאר בקואליציה שקידמה את חוק ביסמוט; Times of Israel, https://www.timesofisrael.com/bismuth-presents-bill-exempting-yeshiva-students-from-idf-draft-loosening-sanctions/",
+     "confidence": "medium"
+    },
+    "T8": {
+     "score": -2,
+     "summary_he": "מתנגד חריף לתחבורה ציבורית בשבת ולנישואים אזרחיים; שואף למדינת הלכה בטווח הארוך.",
+     "evidence": "מצע הציונות הדתית מתנגד לתחב\"צ בשבת ונישואים אזרחיים; אמר שהוא רוצה שישראל תתנהל לפי דין תורה; https://en.wikipedia.org/wiki/Bezalel_Smotrich",
+     "confidence": "high"
+    },
+    "T9": {
+     "score": 1,
+     "summary_he": "מגדיר עצמו ליברל כלכלי תומך שוק חופשי, אך כשר אוצר העלה מע\"מ וחילק כספים קואליציוניים בהיקף שיא.",
+     "evidence": "מגדיר עצמו ליברל כלכלי; העלה מע\"מ ל-18% (1.2025) והעביר תקציב 2026 עם כספים קואליציוניים בהיקף שיא; Times of Israel, https://www.timesofisrael.com/knesset-approves-2026-budget-israels-largest-ever-sending-billions-to-haredi-institutions/",
+     "confidence": "medium"
+    },
+    "T10": {
+     "score": -1,
+     "summary_he": "כשר אוצר העדיף פתרונות צד-היצע והתנגד להרחבת פיקוח מחירים ותוכניות ממשלתיות מסיביות.",
+     "evidence": "כשר אוצר 2023-2026 קידם צעדי היצע בדיור והתנגד להרחבת פיקוח מחירים; ספג ביקורת על תעדוף כספים קואליציוניים על פני יוקר המחיה; Times of Israel, https://www.timesofisrael.com/knesset-approves-2026-budget-israels-largest-ever-sending-billions-to-haredi-institutions/",
+     "confidence": "medium"
+    },
+    "T11": {
+     "score": -2,
+     "summary_he": "כשר אוצר הקפיא והתנה תקציבי תוכנית החומש לחברה הערבית ולחינוך במזרח ירושלים.",
+     "evidence": "הקפיא/עיכב מאות מיליונים מתקציבי תוכנית החומש לרשויות ערביות ולחינוך במזרח ירושלים (2023-2024) בטענה שהם תמיכה ב'תומכי טרור'; Haaretz, https://www.haaretz.com/israel-news/israel-security/2026-04-29/ty-article/.premium/billions-a-year-the-financial-cost-of-violence-in-israels-arab-society/0000019d-d42f-d95a-afbd-f56fd1f40000",
+     "confidence": "medium"
+    },
+    "T12": {
+     "score": 1,
+     "summary_he": "תומך ומצביע בעד עונש מוות למחבלים, אם כי זה דגל של בן גביר ולא שלו.",
+     "evidence": "הציונות הדתית הצביעה בעד חוק עונש המוות בקריאה טרומית (3.2023) וכחלק מהקואליציה; Times of Israel, https://www.timesofisrael.com/knesset-gives-initial-nod-to-death-penalty-for-terrorists-bill-pushed-by-ben-gvir/",
+     "confidence": "medium"
+    },
+    "T13": {
+     "score": 2,
+     "summary_he": "תמך בתקיפות באיראן ביוני 2025 וקורא להשלמת המלאכה צבאית במקום הסדר מדיני.",
+     "evidence": "שיבח את תקיפות יוני 2025 כהיסטוריות והכרחיות; מתנגד עקבי לגישת דיפלומטיה-תחילה (Times of Israel, 6.2025)",
+     "confidence": "medium"
+    },
+    "T14": {
+     "score": 2,
+     "summary_he": "שותף נאמן של נתניהו; נשאר בממשלה גם אחרי עסקאות שהתנגד להן ותומך בהמשך הנהגתו.",
+     "evidence": "נשאר בממשלת נתניהו גם אחרי הצבעתו נגד עסקת אוקטובר 2025; רץ כחלק מגוש נתניהו; Israel National News, https://www.israelnationalnews.com/news/415790 (10.2025)",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": -2,
+     "summary_he": "מתנגד חריף לשוויון להט\"בי — כינה עצמו בעבר 'הומופוב גאה' והשווה נישואים חד-מיניים לגילוי עריות.",
+     "evidence": "אמר שהוא מתנגד ל'תרבות הלהט\"ב' והשווה נישואים חד-מיניים לגילוי עריות; 'הומופוב גאה' (2015); ארגן את 'מצעד הבהמות' (2006); Times of Israel, https://www.timesofisrael.com/smotrich-says-he-opposes-lgbt-culture-appears-to-liken-gay-marriage-to-incest/",
+     "confidence": "high"
+    },
+    "T16": {
+     "score": 2,
+     "summary_he": "ביטול סעיף הנכד מופיע במפורש במצע הציונות הדתית והוא הוביל הצעות חוק לכך.",
+     "evidence": "מצע הציונות הדתית קובע במפורש כוונה 'להסיר את סעיף הנכד'; הגיש הצעות חוק והשיג הבנות עם נתניהו ב-2022; Times of Israel, https://www.timesofisrael.com/even-among-its-advocates-changing-the-law-of-return-proves-trickier-than-expected/",
+     "confidence": "high"
+    }
+   },
+   "color": "#e0742e",
+   "initials": "בס"
+  },
+  {
+   "id": "deri",
+   "name_he": "אריה דרעי",
+   "party_he": "ש\"ס",
+   "bio_he": "יו\"ר ש\"ס מזה עשור ופוליטיקאי חרדי-ספרדי ותיק, שבג\"ץ פסל את כהונתו כשר ב-2023 בשל הרשעתו בעבירות מס — ומאז מנהל את המפלגה והקואליציה 'מבחוץ'. הוביל את התמיכה החרדית בעסקאות החטופים לאורך המלחמה. הוציא את ש\"ס מהממשלה ב-2025 על רקע אי-חקיקת חוק הפטור מגיוס. קמפיין 2026 שלו: חוק יסוד לימוד תורה, פטור מגיוס, תווי מזון ורווחה למעמד החלש — כשברקע הרב יצחק יוסף מאותת לראשונה על פתיחות לחלופה לנתניהו.",
+   "positions": {
+    "T1": {
+     "score": 2,
+     "summary_he": "התומך העקבי ביותר בקואליציה בעסקת חטופים גם במחיר סיום המלחמה — 'אנחנו מחויבים להצלת חיים'.",
+     "evidence": "'זו עסקה קשה מאוד עם מחירים כבדים — אבל אנחנו מחויבים להצלת חיים' (כנס ש\"ס, 1.2025); Israel National News, https://www.israelnationalnews.com/news/402410; JPost, https://www.jpost.com/israel-news/article-839645",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": 0,
+     "summary_he": "תומך בפירוז עזה והגליית הנהגת חמאס, אך לא הביע עמדה על שליטה צבאית קבועה או חידוש התנחלויות — ש\"ס נעדרה מכנס ההתיישבות בעזה.",
+     "evidence": "Times of Israel liveblog: 'ישראל מוכנה לשלם מחיר כבד לעסקה, אבל רק אם מנהיגי חמאס יוגלו ועזה תפורז' (2024), https://www.timesofisrael.com/liveblog_entry/shas-chair-deri-says-israel-willing-to-pay-heavy-price-for-hostage-deal-but-only-if-hamas-leaders-exiled-gaza-demilitarized/",
+     "confidence": "low"
+    },
+    "T3": {
+     "score": 0,
+     "summary_he": "לא אותרה התבטאות פומבית ברורה שלו בעד או נגד עידוד 'הגירה מרצון' מעזה.",
+     "evidence": "לא נמצאה עמדה מתועדת של דרעי על תוכנית ההגירה (חיפושים בעברית ובאנגלית, 2025-2026)",
+     "confidence": "low"
+    },
+    "T4": {
+     "score": -1,
+     "summary_he": "מתנגד למדינה פלסטינית כחלק מהקו הממשלתי, אך זה אינו דגל מרכזי שלו — ש\"ס תמכה בהחלטת הממשלה נגד הכרה חד-צדדית.",
+     "evidence": "שרי ש\"ס תמכו בהחלטת הממשלה (18.2.2024) הדוחה הכרה חד-צדדית במדינה פלסטינית; הודעת מזכירות הממשלה",
+     "confidence": "medium"
+    },
+    "T5": {
+     "score": 0,
+     "summary_he": "אינו מוביל אג'נדת סיפוח או הרחבת התנחלויות; ש\"ס זורמת עם החלטות הקואליציה אך זה לא סדר יומה.",
+     "evidence": "לא אותרו התבטאויות או יוזמות של דרעי בנושא סיפוח/E1; ש\"ס לא השתתפה בכנס 'ההתיישבות מביאה ביטחון' (1.2024)",
+     "confidence": "low"
+    },
+    "T6": {
+     "score": 2,
+     "summary_he": "תמך במהפכה המשפטית ובעל אינטרס אישי ישיר — בג\"ץ פסל אותו מכהונת שר, וש\"ס דרשה פסקת התגברות וחוקקה את חוק ועדת בחירת השופטים.",
+     "evidence": "'חוק דרעי' לעקיפת פסילת בג\"ץ (Times of Israel, https://www.timesofisrael.com/coalition-advances-bill-that-would-return-deri-to-cabinet-defying-high-court-ruling/, 2023); הצבעת ש\"ס בעד חוק הוועדה לבחירת שופטים (27.3.2025)",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": -2,
+     "summary_he": "מתנגד בחריפות לגיוס בני ישיבות ולסנקציות — הציב אולטימטום לנתניהו: בלי חוק יסוד לימוד תורה ועצירת מעצרי עריקים 'אין על מה לדבר'.",
+     "evidence": "JPost, https://www.jpost.com/israel-news/politics-and-diplomacy/article-882362; Ynet, https://www.ynetnews.com/article/rjqv7amyfl (2026); ש\"ס איימה לחסום את תקציב 2026",
+     "confidence": "high"
+    },
+    "T8": {
+     "score": -2,
+     "summary_he": "מתנגד נחרץ לתחבורה ציבורית בשבת ולנישואים אזרחיים — ליבת הזהות של ש\"ס כשומרת הסטטוס-קוו הדתי.",
+     "evidence": "התנגדות עקבית בכל הצבעה והסכם קואליציוני; ההסכם הקואליציוני של ש\"ס 2022 מעגן שמירת סטטוס-קוו בשבת ובנישואין",
+     "confidence": "high"
+    },
+    "T9": {
+     "score": -2,
+     "summary_he": "ההפך ממפלגת שוק חופשי: ש\"ס בנויה על סובסידיות, קצבאות ותקציבים סקטוריאליים לשכבות החלשות.",
+     "evidence": "התניית תמיכת ש\"ס בתקציב 2026 בתקצוב תווי מזון (277 מיליון ש\"ח); Times of Israel, https://www.timesofisrael.com/deri-shas-wont-support-2026-budget-until-haredi-kids-get-food-stamp-funds/ (2025)",
+     "confidence": "high"
+    },
+    "T10": {
+     "score": 2,
+     "summary_he": "דורש התערבות ממשלתית אגרסיבית ביוקר המחיה: תוכנית תווי המזון שלו הגיעה ל-400 אלף משפחות והוא מתנה בה תקציבים.",
+     "evidence": "'בשנה שעברה תוכנית תווי המזון סייעה ל-400 אלף משפחות זכאיות בכל המגזרים'; Times of Israel, https://www.timesofisrael.com/deri-shas-wont-support-2026-budget-until-haredi-kids-get-food-stamp-funds/ (2025)",
+     "confidence": "high"
+    },
+    "T11": {
+     "score": 0,
+     "summary_he": "אין לו אג'נדה מוצהרת להגדלת תקציבי החברה הערבית; מזכיר ערבים בעיקר כנקודת השוואה לקיפוח חרדי בקריטריונים.",
+     "evidence": "'לא ייתכן שילד חרדי עני לא יקבל את התמיכה המינימלית שילד ערבי עני מקבל'; Times of Israel (2025)",
+     "confidence": "low"
+    },
+    "T12": {
+     "score": 1,
+     "summary_he": "ש\"ס הצביעה בעד חוק עונש מוות למחבלים בקריאה הסופית (מרץ 2026), אף שלא הייתה ממוביליו.",
+     "evidence": "כל סיעות הקואליציה כולל ש\"ס הצביעו בעד למעט אגודת ישראל, 62-47; Times of Israel, https://www.timesofisrael.com/knesset-passes-death-penalty-law-for-palestinians-convicted-of-deadly-acts-of-terror/ (30.3.2026)",
+     "confidence": "high"
+    },
+    "T13": {
+     "score": 1,
+     "summary_he": "כחבר בפורומי ההכרעה תמך בתקיפת איראן ביוני 2025 ותיאר את השנה כ'ניסים ונפלאות', אך אינו מזוהה עם דחיפה למתקפות נוספות.",
+     "evidence": "Times of Israel liveblog, https://www.timesofisrael.com/liveblog_entry/deri-says-past-year-brought-miracles-and-wonders-hints-chances-for-hostage-deal-rising/ (9.2025)",
+     "confidence": "medium"
+    },
+    "T14": {
+     "score": 0,
+     "summary_he": "נאמנות היסטורית לנתניהו נסדקה קשות ב-2026: מתח חריף סביב חוק הגיוס, והרב יצחק יוסף מאותת לראשונה על פתיחות לאייזנקוט כחלופה.",
+     "evidence": "עימות דרעי-נתניהו על חוקי הגיוס (Haaretz, 12.5.2026); הרב יוסף רמז לברית עם אייזנקוט; JPost, https://www.jpost.com/israel-news/politics-and-diplomacy/article-902256 (2026)",
+     "confidence": "medium"
+    },
+    "T15": {
+     "score": -2,
+     "summary_he": "מתנגד עקבי ובוטה לזכויות להט\"ב ולנישואים חד-מיניים לאורך כל הקריירה — הצביע נגד כל חקיקת שוויון.",
+     "evidence": "רקורד הצבעות עקבי נגד חקיקת להט\"ב (פונדקאות, איסור טיפולי המרה) והתבטאויות נגד מצעדי גאווה; פרוטוקולי הכנסת 2015-2025",
+     "confidence": "high"
+    },
+    "T16": {
+     "score": 2,
+     "summary_he": "מהדוחפים המרכזיים לביטול סעיף הנכד — דרישה רשמית של ש\"ס בהסכמים הקואליציוניים של 2022 ובהצעות חוק.",
+     "evidence": "ביטול/צמצום סעיף הנכד בדרישות ש\"ס בהסכמי הקואליציה 12.2022; Times of Israel, https://www.timesofisrael.com/bill-to-limit-law-of-return-shot-down-despite-support-from-ultra-orthodox-mks/",
+     "confidence": "high"
+    }
+   },
+   "color": "#16a085",
+   "initials": "אד"
+  },
+  {
+   "id": "goldknopf",
+   "name_he": "יצחק גולדקנופף",
+   "party_he": "יהדות התורה",
+   "bio_he": "יו\"ר יהדות התורה וראש סיעת אגודת ישראל (חסידות גור), כיהן כשר הבינוי והשיכון עד שהתפטר מהממשלה ביוני 2025 על רקע אי-חקיקת חוק הפטור מגיוס לבני ישיבות. הפך לפנים של המאבק החרדי נגד הגיוס — כולל השוואת הסנקציות על עריקים ל'טלאי צהוב' שעוררה סערה. הצביע עם האופוזיציה לפיזור הכנסת והצהיר שאינו מאמין להבטחות נתניהו. קמפיין 2026 שלו סובב כמעט כולו סביב פטור מגיוס, תקציבי עולם התורה ודיור לציבור החרדי.",
+   "positions": {
+    "T1": {
+     "score": 2,
+     "summary_he": "תמך לאורך כל הדרך בעסקה להשבת החטופים גם במחיר סיום המלחמה, מטעמי פיקוח נפש ופדיון שבויים — 'עד החטוף האחרון'.",
+     "evidence": "The Media Line, 'Ultra-Orthodox Parties Push for Hostage Deal', https://themedialine.org/headlines/ultra-orthodox-parties-push-for-hostage-deal-in-israel-hamas-conflict/ (2025)",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": 1,
+     "summary_he": "השתתף כשר בכנס 'ההתיישבות מביאה ביטחון' וקרא לחידוש ההתיישבות היהודית בעזה — אך זה לא הפך לאג'נדה פעילה שלו.",
+     "evidence": "Haaretz, https://www.haaretz.com/israel-news/2024-01-28/ty-article/ministers-from-netanyahus-party-join-thousands-of-israelis-at-resettle-gaza-conference/0000018d-512f-dfdc-a5ad-db7f35e10000 (28.1.2024); Times of Israel, https://www.timesofisrael.com/12-ministers-call-to-resettle-gaza-encourage-gazans-to-leave-at-jubilant-conference/",
+     "confidence": "medium"
+    },
+    "T3": {
+     "score": 0,
+     "summary_he": "נכח בכנס שבו נקראו קריאות לעידוד הגירה מעזה, אך לא אותרה התבטאות אישית שלו בעד 'הגירה מרצון'.",
+     "evidence": "בכנס ינואר 2024 שרים קראו לעידוד הגירה, אך לא תועדה אמירה כזו מפיו; Times of Israel (28.1.2024)",
+     "confidence": "low"
+    },
+    "T4": {
+     "score": -1,
+     "summary_he": "מתנגד למדינה פלסטינית בהתאם לקו המועצות הרבניות והקואליציה, אך אינו עוסק בכך כמעט בכלל.",
+     "evidence": "שרי יהדות התורה תמכו בהחלטת הממשלה נגד הכרה חד-צדדית במדינה פלסטינית (18.2.2024)",
+     "confidence": "medium"
+    },
+    "T5": {
+     "score": 0,
+     "summary_he": "אין לו עמדה מוצהרת על סיפוח; כשר שיכון קידם בנייה בערים חרדיות כולל ביו\"ש, אבל ממניעים דיוריים ולא אידיאולוגיים.",
+     "evidence": "לא אותרו התבטאויות בעד/נגד סיפוח או E1; פעילותו התמקדה בדיור לציבור החרדי (משרד הבינוי והשיכון, 2023-2025)",
+     "confidence": "low"
+    },
+    "T6": {
+     "score": 2,
+     "summary_he": "יהדות התורה דרשה את פסקת ההתגברות בהסכם הקואליציוני (כמגן לחוקי הגיוס והלימודים) והצביעה בעד חוק ועדת בחירת השופטים.",
+     "evidence": "פסקת התגברות בהסכם הקואליציוני של יהדות התורה (12.2022); הצבעה בעד חוק הוועדה לבחירת שופטים; Times of Israel (27.3.2025)",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": -2,
+     "summary_he": "המתנגד הקיצוני ביותר לגיוס בני ישיבות: השווה סנקציות על עריקים ל'טלאי צהוב', התפטר מהממשלה ודרש מנתניהו לעצור מעצרי עריקים.",
+     "evidence": "השוואת הסנקציות לטלאי צהוב (JPost, https://www.jpost.com/israel-news/politics-and-diplomacy/article-869633); התפטרות: Times of Israel, https://www.timesofisrael.com/utjs-goldknopf-resigns-from-cabinet-after-knesset-fails-to-pass-dissolution-bill/ (6.2025)",
+     "confidence": "high"
+    },
+    "T8": {
+     "score": -2,
+     "summary_he": "התנגדות מוחלטת לתחבורה ציבורית בשבת ולנישואים אזרחיים — ליבת קיומה של יהדות התורה כשומרת חומות הדת.",
+     "evidence": "עמדה מכוננת ועקבית של אגודת ישראל בכל הסכם קואליציוני והצבעה; ההסכם הקואליציוני 2022",
+     "confidence": "high"
+    },
+    "T9": {
+     "score": -2,
+     "summary_he": "מדיניותו הפוכה לשוק חופשי: מיליארדים בכספים קואליציוניים לישיבות, קצבאות, סבסוד מעונות ותמיכות סקטוריאליות.",
+     "evidence": "התניית תמיכה בתקציבי 2023-2025 בתקציבי עולם התורה וקצבאות; דיווחי Times of Israel וכלכליסט",
+     "confidence": "high"
+    },
+    "T10": {
+     "score": 1,
+     "summary_he": "כשר שיכון תמך בהתערבות ממשלתית ובתוכניות דיור מסובסד (בעיקר לציבור החרדי), אך לא הוביל מהפכת דיור ציבורי כלל-ארצית.",
+     "evidence": "קידם תוכניות סבסוד ובנייה מוזלת בערים חרדיות (משרד הבינוי והשיכון, 2023-2025)",
+     "confidence": "medium"
+    },
+    "T11": {
+     "score": 0,
+     "summary_he": "אין לו שום עמדה מוצהרת או פעילות בנושא תקציבי החברה הערבית והפשיעה בה.",
+     "evidence": "לא אותרה אף התבטאות רלוונטית (חיפושים בעברית ובאנגלית, 2022-2026)",
+     "confidence": "low"
+    },
+    "T12": {
+     "score": -1,
+     "summary_he": "סיעתו אגודת ישראל הייתה היחידה בקואליציה שלא הצביעה בעד חוק עונש המוות למחבלים, על רקע הסתייגות הלכתית של גדולי החסידויות.",
+     "evidence": "בהצבעה הסופית (62-47) תמכו כל סיעות הקואליציה למעט אגודת ישראל; Times of Israel (30.3.2026)",
+     "confidence": "medium"
+    },
+    "T13": {
+     "score": 0,
+     "summary_he": "לא אותרה עמדה ברורה שלו על תקיפות נוספות באיראן — התפטר מהממשלה ממש בימי מבצע עם כלביא, ומוקדו סקטוריאלי בלבד.",
+     "evidence": "אין התבטאות מתועדת; התפטרותו מהקבינט (6.2025) חלה במקביל למבצע",
+     "confidence": "low"
+    },
+    "T14": {
+     "score": -1,
+     "summary_he": "אמון עמוק שנשבר: הצביע עם האופוזיציה לפיזור הכנסת והצהיר 'איננו מאמינים להבטחות נתניהו' — אך לא שלל ישיבה בממשלת ימין שתחוקק פטור.",
+     "evidence": "Times of Israel, https://www.timesofisrael.com/utjs-goldknopf-resigns-from-cabinet-after-knesset-fails-to-pass-dissolution-bill/; Haaretz, https://www.haaretz.com/israel-news/israel-politics/2026-05-18/ty-article/.premium/haredi-parties-dont-believe-netanyahus-promises-over-draft-dodge-bill/0000019e-3a78-def8-a3ff-3ffa45790000 (18.5.2026)",
+     "confidence": "medium"
+    },
+    "T15": {
+     "score": -2,
+     "summary_he": "התנגדות טוטאלית לנישואים חד-מיניים ולחקיקת שוויון להט\"ב — עמדה הלכתית מוחלטת של אגודת ישראל.",
+     "evidence": "רקורד הצבעות עקבי של סיעתו נגד כל חקיקת להט\"ב והתחייבויות קואליציוניות לשימור דיני האישות הדתיים (כנסת 25)",
+     "confidence": "high"
+    },
+    "T16": {
+     "score": 2,
+     "summary_he": "יהדות התורה דורשת לבטל את סעיף הנכד כדי למנוע עלייה של 'לא-יהודים על פי ההלכה', וח\"כיה תמכו בחקיקה לצמצום חוק השבות.",
+     "evidence": "ביטול סעיף הנכד בדרישות הקואליציוניות של יהדות התורה (2022); Times of Israel, https://www.timesofisrael.com/bill-to-limit-law-of-return-shot-down-despite-support-from-ultra-orthodox-mks/",
+     "confidence": "high"
+    }
+   },
+   "color": "#444f66",
+   "initials": "יג"
+  },
+  {
+   "id": "abbas",
+   "name_he": "מנסור עבאס",
+   "party_he": "רע\"מ",
+   "bio_he": "רופא שיניים מהכפר מע'אר ויו\"ר רע\"מ, הזרם הדרומי של התנועה האסלאמית. עשה היסטוריה ב-2021 כשהכניס לראשונה מפלגה ערבית עצמאית לקואליציה (ממשלת בנט-לפיד) והשיג תוכנית תקציבים של עשרות מיליארדים לחברה הערבית. לקראת אוקטובר 2026 הוא מציג עצמו כלשון מאזניים להקמת \"ממשלת שינוי\", סירב לרוץ ברשימה המשותפת, פתח את רע\"מ למועמדים יהודים והודיע שזו מערכת הבחירות האחרונה שלו.",
+   "positions": {
+    "T1": {
+     "score": 2,
+     "summary_he": "קרא מהיום הראשון לשחרור החטופים ולסיום המלחמה; גינה את חמאס ואת 7.10 כ'מעשה לא אנושי'.",
+     "evidence": "אוקטובר 2023: 'ערכי האסלאם מצווים עלינו לא לכלוא נשים, ילדים וזקנים. המעשה ההומניטרי הזה חייב להיעשות מיד'; גינה את 7.10 כ'מעשה לא אנושי ובלתי מוצדק'; https://en.wikipedia.org/wiki/Mansour_Abbas",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": -2,
+     "summary_he": "מתנגד לשליטה ישראלית קבועה בעזה ולהתנחלויות; מקדם תוכנית שלום אזורית שבה עזה חלק ממדינה פלסטינית.",
+     "evidence": "הציג בכנס האופוזיציה תוכנית לשלום אזורי הכוללת מדינה פלסטינית לצד ישראל; 972mag, https://www.972mag.com/israel-opposition-knesset-election-palestinian-parties/ (2026)",
+     "confidence": "medium"
+    },
+    "T3": {
+     "score": -2,
+     "summary_he": "מתנגד לעקירת תושבי עזה; עמדתו העקבית — הפלסטינים נשארים במולדתם ופתרון מדיני.",
+     "evidence": "עמדתו המתועדת: שתי מדינות ושלום אזורי; גינה את מדיניות הממשלה בעזה; Irish Times, https://www.irishtimes.com/world/middle-east/2025/12/22/mansour-abbas-the-arab-kingmaker-eyeing-israels-2026-election/ (22.12.2025)",
+     "confidence": "medium"
+    },
+    "T4": {
+     "score": 2,
+     "summary_he": "תומך בשתי מדינות; הציג תוכנית שלום אזורית שזכתה לתשואות בכנס האופוזיציה.",
+     "evidence": "הציג תוכנית לשלום אזורי הכוללת פתרון מדיני ישראלי-פלסטיני; רע\"מ תומכת בשתי מדינות בקווי 67'; 972mag, https://www.972mag.com/israel-opposition-knesset-election-palestinian-parties/; Irish Times (22.12.2025)",
+     "confidence": "medium"
+    },
+    "T5": {
+     "score": -2,
+     "summary_he": "מתנגד לסיפוח הגדה ולהרחבת התנחלויות — סותר את חזון שתי המדינות שלו.",
+     "evidence": "תמיכתו בשתי מדינות ובתוכנית שלום אזורית (2025-2026); רע\"מ הצביעה בעקביות נגד חקיקת סיפוח; Irish Times (22.12.2025)",
+     "confidence": "medium"
+    },
+    "T6": {
+     "score": -2,
+     "summary_he": "התנגד להפיכה המשטרית: 'מערכת המשפט היא ההגנה המרכזית של החברה הערבית'.",
+     "evidence": "פברואר 2023: 'החברה הערבית במיעוט, וההגנה המרכזית עליה הייתה מערכת המשפט'; חתם על מכתב ראשי האופוזיציה נגד החקיקה; Times of Israel, https://www.timesofisrael.com/liveblog_entry/raam-leader-abbas-judiciary-the-primary-protection-for-arab-society",
+     "confidence": "high"
+    },
+    "T7": {
+     "score": 0,
+     "summary_he": "אין עמדה ברורה מתועדת על גיוס חרדים בכפייה עם סנקציות; רע\"מ נמנעת מהסוגיה הפנים-יהודית.",
+     "evidence": "לא נמצאה הצהרה או הצבעה מתועדת בסוגיית חוק הגיוס והסנקציות (2024-2026)",
+     "confidence": "low"
+    },
+    "T8": {
+     "score": -2,
+     "summary_he": "אסלאמיסט שמרן: רע\"מ מתנגדת לחקיקה חילונית-ליברלית כמו תחב\"צ בשבת ונישואים אזרחיים.",
+     "evidence": "תנאי רע\"מ ברשימה המשותפת לשעבר: אי-הצבעה לחוקים 'הפוגעים בזהות הדתית השמרנית'; Times of Israel, https://www.timesofisrael.com/how-islamist-raam-broke-arab-politics-and-may-win-the-keys-to-the-government/ (2021)",
+     "confidence": "medium"
+    },
+    "T9": {
+     "score": -1,
+     "summary_he": "לא ליברל כלכלי: כל דרכו הפוליטית בנויה על השגת תקציבי ענק ממשלתיים לחברה הערבית.",
+     "evidence": "הסכם הקואליציה 2021: תוכנית תקציבים של יותר מ-30 מיליארד ש\"ח לחברה הערבית; MEI, https://mei.edu/publication/whats-driving-mansour-abbas-and-raams-strategy/",
+     "confidence": "medium"
+    },
+    "T10": {
+     "score": 2,
+     "summary_he": "דורש התערבות ממשלתית מסיבית: תקציבי דיור, הכשרת בנייה ותשתיות ביישובים הערביים כתנאי לכל שותפות.",
+     "evidence": "בקואליציית בנט-לפיד השיג ~30 מיליארד ש\"ח לתוכניות פיתוח, דיור והסדרת בנייה (2021-2022); Irish Times (22.12.2025)",
+     "confidence": "high"
+    },
+    "T11": {
+     "score": 2,
+     "summary_he": "זה הדגל המרכזי שלו: תקציבים לחברה הערבית ומיגור הפשיעה כתנאי-סף לכל ממשלה.",
+     "evidence": "הישגיו בקואליציה 2021-2022 (תקציבי עתק + תוכנית למאבק בפשיעה) והצהרותיו ל-2026: 'הקול הערבי יכריע את הכף'; Irish Times, https://www.irishtimes.com/world/middle-east/2025/12/22/mansour-abbas-the-arab-kingmaker-eyeing-israels-2026-election/",
+     "confidence": "high"
+    },
+    "T12": {
+     "score": -2,
+     "summary_he": "התנגד לחוק עונש המוות למחבלים; רע\"מ הובילה את ההתנגדות בכנסת.",
+     "evidence": "רע\"מ הצביעה נגד החוק בקריאותיו (11.2025-3.2026); בן גביר תקף אישית את עבאס על התנגדותו; https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law",
+     "confidence": "high"
+    },
+    "T13": {
+     "score": 0,
+     "summary_he": "אין עמדה פומבית מתועדת שלו על המערכה מול איראן; נמנע מסוגיות ביטחון-חוץ.",
+     "evidence": "לא נמצאה התבטאות מתועדת על המלחמות מול איראן ב-2025-2026",
+     "confidence": "low"
+    },
+    "T14": {
+     "score": -1,
+     "summary_he": "מעדיף 'ממשלת שינוי' — 'נתניהו קיבל את ההזדמנות שלו, 20 שנה' — אך לא סוגר סופית את הדלת למגעים עם הליכוד.",
+     "evidence": "'אני רוצה שתקום ממשלת שינוי חדשה בישראל; זו העדיפות הראשונה... נתניהו קיבל את ההזדמנות שלו'; Irish Times, https://www.irishtimes.com/world/middle-east/2025/12/22/mansour-abbas-the-arab-kingmaker-eyeing-israels-2026-election/ (22.12.2025)",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": -2,
+     "summary_he": "מתנגד לזכויות להט\"ב מטעמי דת; תמך בעבר בטיפולי המרה ורע\"מ פרשה מהמשותפת על רקע חקיקה להט\"בית.",
+     "evidence": "ריאיון שבו תמך בטיפולי המרה לנוער להט\"ב; פילוג רע\"מ מהמשותפת ב-2021 נומק בסירוב להצביע לחוקים 'הפוגעים בזהות הדתית'; JPost, https://www.jpost.com/israel-elections/grindr-users-surprised-to-find-profile-of-anti-lgbtq-mk-mansour-abbas-657213",
+     "confidence": "high"
+    },
+    "T16": {
+     "score": 0,
+     "summary_he": "אין עמדה מתועדת של עבאס או רע\"מ על סעיף הנכד בחוק השבות.",
+     "evidence": "לא נמצאה כל התבטאות או הצבעה מתועדת (2023-2026)",
+     "confidence": "low"
+    }
+   },
+   "color": "#1f7a3d",
+   "initials": "מע"
+  },
+  {
+   "id": "jointlist",
+   "name_he": "יוסף ג'בארין",
+   "party_he": "הרשימה המשותפת (חד\"ש-תע\"ל-בל\"ד)",
+   "bio_he": "ד\"ר יוסף ג'בארין, משפטן ואיש אקדמיה מאום אל-פחם המתמחה במשפט חוקתי וזכויות אדם, לימד באוניברסיטת חיפה ובמכללת תל-חי. כיהן כח\"כ מטעם חד\"ש והרשימה המשותפת בשנים 2015-2021. במאי 2026 נבחר ליו\"ר חד\"ש במקום איימן עודה, וביוני 2026 הוקמה מחדש הרשימה המשותפת עם תע\"ל ובל\"ד (ללא רע\"מ) כשהוא בראשה. הקמפיין שלו: הפלת ממשלת נתניהו-בן גביר-סמוטריץ', סיום הכיבוש, שוויון אזרחי ושותפות יהודית-ערבית.",
+   "positions": {
+    "T1": {
+     "score": 2,
+     "summary_he": "חד\"ש דרשה מהיום הראשון הפסקת אש ועסקת חטופים; ג'בארין תקף את המשך המלחמה כהרס מיותר.",
+     "evidence": "חד\"ש דרשה בעקביות הפסקת אש ועסקה להשבת החטופים; ג'בארין בעצרת בחיפה (6.2026) תקף את התנהלות הממשלה במלחמה; 972mag, https://www.972mag.com/haifa-protest-genocide-coexistence/",
+     "confidence": "high"
+    },
+    "T2": {
+     "score": -2,
+     "summary_he": "מתנגד בתוקף לכיבוש עזה ולהתיישבות בה: 'סמוטריץ' מדבר בגלוי על סיפוח, גירוש והתנחלויות בגדה ובעזה'.",
+     "evidence": "נאום בחיפה, יוני 2026: 'סמוטריץ' מדבר בגלוי על סיפוח, גירוש, טרנספר והתנחלויות בכל שטחי הגדה, בעזה וגם בלבנון'; JPost, https://www.jpost.com/israel-news/article-898542",
+     "confidence": "high"
+    },
+    "T3": {
+     "score": -2,
+     "summary_he": "רואה ב'הגירה מרצון' טיהור אתני; חד\"ש הזהירה מ'פשעי טיהור אתני ברצועת עזה'.",
+     "evidence": "הצהרת חד\"ש (6.2025): אזהרה מפני 'הגברת הטבח ופשעי הטיהור האתני ברצועת עזה ובגדה'; Times of Israel, https://www.timesofisrael.com/liveblog_entry/arab-majority-hadash-party-condemns-strikes-on-iran-could-lead-to-global-war/",
+     "confidence": "high"
+    },
+    "T4": {
+     "score": 2,
+     "summary_he": "קורא במפורש ל'הקמת מדינה פלסטינית עצמאית וריבונית לצד ישראל'.",
+     "evidence": "נאומו בחיפה (6.2026): 'סיום הכיבוש, פירוק ההתנחלויות והקמת מדינה פלסטינית עצמאית וריבונית לצד ישראל... שתי אפשרויות: כיבוש ואפרטהייד, או שלום צודק ודמוקרטיה'; JPost, https://www.jpost.com/israel-news/article-898542",
+     "confidence": "high"
+    },
+    "T5": {
+     "score": -2,
+     "summary_he": "דורש את ההפך הגמור: סיום הכיבוש ופירוק ההתנחלויות.",
+     "evidence": "נאומו בחיפה (6.2026): 'סיום הכיבוש, פירוק ההתנחלויות'; JPost, https://www.jpost.com/israel-news/article-898542",
+     "confidence": "high"
+    },
+    "T6": {
+     "score": -2,
+     "summary_he": "מתנגד להפיכה המשטרית; חד\"ש הצביעה נגד חקיקת ההפיכה ורואה בה החרפת הפגיעה במיעוט הערבי.",
+     "evidence": "חד\"ש-תע\"ל התנגדה לכל חקיקת ההפיכה 2023; ג'בארין, משפטן חוקתי, נבחר על מצע 'מאבק לדמוקרטיה'; Times of Israel, https://www.timesofisrael.com/liveblog_entry/former-mk-yousef-jabareen-elected-leader-of-arab-party-hadash/ (5.2026)",
+     "confidence": "medium"
+    },
+    "T7": {
+     "score": 0,
+     "summary_he": "אין עמדה מתועדת שלו על גיוס חרדים; חד\"ש נמנעת מסוגיה זו ומסתייגת ממיליטריזציה בכלל.",
+     "evidence": "לא נמצאה הצהרה או הצבעה מתועדת בעד גיוס חרדים בכפייה (2024-2026)",
+     "confidence": "low"
+    },
+    "T8": {
+     "score": 2,
+     "summary_he": "חד\"ש חילונית ותומכת בביטול הכפייה הדתית ובנישואים אזרחיים לכולם.",
+     "evidence": "מצע חד\"ש: 'מניעת כפייה דתית והבטחת חופש דעה ואמונה'; תומכת בנישואים אזרחיים כולל חד-מיניים; https://en.wikipedia.org/wiki/Hadash",
+     "confidence": "medium"
+    },
+    "T9": {
+     "score": -2,
+     "summary_he": "חזית סוציאליסטית בהובלת המפלגה הקומוניסטית: נגד הפרטה ושוק חופשי, בעד זכויות עובדים.",
+     "evidence": "חד\"ש היא חזית שבמרכזה מק\"י; מצע סוציאליסטי מובהק — זכויות עובדים, נגד הפרטות; https://en.wikipedia.org/wiki/Hadash",
+     "confidence": "high"
+    },
+    "T10": {
+     "score": 2,
+     "summary_he": "תומך בהתערבות ממשלתית מלאה: דיור ציבורי, פיקוח מחירים והרחבת שירותי הרווחה.",
+     "evidence": "מצע חד\"ש הסוציאליסטי: מדינת רווחה מורחבת, דיור ציבורי, הגנה על עובדים; https://ecfr.eu/special/mapping_palestinian_politics/hadash/",
+     "confidence": "high"
+    },
+    "T11": {
+     "score": 2,
+     "summary_he": "ליבת סדר היום שלו: שוויון תקציבי מלא, מיגור הפשיעה בחברה הערבית ומאבק בגזענות.",
+     "evidence": "הצהרת הבכורה שלו כיו\"ר חד\"ש (5.2026): 'ניאבק למען שוויון, למען דמוקרטיה ולמען שלום'; חד\"ש-תע\"ל הובילה את הדרישה לתוכנית חירום נגד הפשיעה; Times of Israel, https://www.timesofisrael.com/liveblog_entry/former-mk-yousef-jabareen-elected-leader-of-arab-party-hadash/",
+     "confidence": "high"
+    },
+    "T12": {
+     "score": -2,
+     "summary_he": "חד\"ש-תע\"ל: חוק עונש המוות הוא 'הכרזה רשמית על מיסוד האפרטהייד והגזענות'; עתרה לבג\"ץ נגדו.",
+     "evidence": "הצהרת חד\"ש-תע\"ל (11.2025): 'הכרזה רשמית על מיסוד האפרטהייד והגזענות'; הצביעה נגד ועתרה לבג\"ץ; https://en.wikipedia.org/wiki/Death_Penalty_for_Terrorists_Law",
+     "confidence": "high"
+    },
+    "T13": {
+     "score": -2,
+     "summary_he": "חד\"ש גינתה את התקיפות באיראן כמסכנות 'מלחמה אזורית ועולמית' והגישה אי-אמון בממשלה בזמן המלחמה.",
+     "evidence": "הצהרת חד\"ש (6.2025): התקיפה 'עלולה להוביל להצתת מלחמה רחבת היקף, אזורית ועולמית'; Times of Israel, https://www.timesofisrael.com/liveblog_entry/arab-majority-hadash-party-condemns-strikes-on-iran-could-lead-to-global-war/",
+     "confidence": "high"
+    },
+    "T14": {
+     "score": -2,
+     "summary_he": "'נעשה הכול כדי למנוע מממשלת נתניהו, בן גביר וסמוטריץ' להמשיך קדנציה נוספת'.",
+     "evidence": "הצהרתו עם היבחרו ליו\"ר חד\"ש (5.2026); JPost, https://www.jpost.com/israel-news/politics-and-diplomacy/article-896367",
+     "confidence": "high"
+    },
+    "T15": {
+     "score": 2,
+     "summary_he": "חד\"ש תומכת רשמית בנישואים חד-מיניים ובזכויות להט\"ב; ג'בארין מהאגף האזרחי-ליברלי של המפלגה.",
+     "evidence": "חד\"ש תומכת מפורשות בנישואים חד-מיניים; זה גם מה שהפריד בינה לבין רע\"מ ב-2021; https://en.wikipedia.org/wiki/Hadash",
+     "confidence": "medium"
+    },
+    "T16": {
+     "score": 0,
+     "summary_he": "אין עמדה מתועדת של ג'בארין או חד\"ש ספציפית על סעיף הנכד (חד\"ש מבקרת את חוק השבות בכללותו, אך לא בסוגיה זו).",
+     "evidence": "לא נמצאה התבטאות או הצבעה מתועדת בסוגיית סעיף הנכד (2023-2026)",
+     "confidence": "low"
+    }
+   },
+   "color": "#b22222",
+   "initials": "יג"
+  }
+ ]
+}

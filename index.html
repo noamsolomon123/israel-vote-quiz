@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>למי להצביע? — שאלון בחירות 2026</title>
+<meta name="description" content="שאלון פוליטי מקיף לבחירות 2026: ענו על שאלות אמיתיות מבוססות עמדות מתועדות, וגלו איזה מנהיג הכי מתאים לדעות שלכם.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===== Landing ===== -->
+<section id="landing" class="screen active">
+  <div class="landing-inner">
+    <div class="ballot-icon">🗳️</div>
+    <h1>למי להצביע ב־2026?</h1>
+    <p class="subtitle">שאלון מעמיק שמשווה את הדעות שלך לעמדות <strong>המתועדות</strong> של 12 ראשי המפלגות — ציטוטים, הצבעות ומקורות אמיתיים בלבד.</p>
+    <ul class="landing-points">
+      <li>✅ כ־30 שאלות על ביטחון, כלכלה, דת ומדינה, משפט ועוד</li>
+      <li>⚖️ מסמנים גם כמה כל נושא חשוב לך</li>
+      <li>📊 בסוף: דירוג מלא של כל המנהיגים באחוזי התאמה</li>
+      <li>📄 לכל פוליטיקאי — דף אג'נדה מלא עם מקורות</li>
+    </ul>
+    <button id="startBtn" class="btn-primary">מתחילים ›</button>
+    <p class="disclaimer">כלי עזר חינוכי בלבד, לא המלצת הצבעה רשמית. העמדות מבוססות על התבטאויות והצבעות פומביות נכון ליולי 2026.</p>
+  </div>
+</section>
+
+<!-- ===== Quiz ===== -->
+<section id="quiz" class="screen">
+  <div class="quiz-inner">
+    <div class="progress-wrap">
+      <div class="progress-bar"><div id="progressFill"></div></div>
+      <span id="progressText"></span>
+    </div>
+    <div id="questionCard" class="question-card">
+      <div id="topicTag" class="topic-tag"></div>
+      <h2 id="questionText"></h2>
+      <div id="answers" class="answers"></div>
+      <div class="importance-wrap">
+        <span class="importance-label">כמה הנושא חשוב לך?</span>
+        <div class="importance-btns" id="importanceBtns">
+          <button data-w="0.5">לא חשוב</button>
+          <button data-w="1" class="selected">חשוב</button>
+          <button data-w="2">חשוב מאוד</button>
+        </div>
+      </div>
+      <div class="nav-btns">
+        <button id="backBtn" class="btn-ghost">‹ חזרה</button>
+        <button id="nextBtn" class="btn-primary" disabled>הבא ›</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Results ===== -->
+<section id="results" class="screen">
+  <div class="results-inner">
+    <h1>התוצאות שלך</h1>
+    <p class="results-sub">דירוג ההתאמה בין הדעות שלך לעמדות המתועדות של המנהיגים:</p>
+    <div id="winnerCard"></div>
+    <div id="ranking" class="ranking"></div>
+    <button id="restartBtn" class="btn-ghost">התחלה מחדש ↺</button>
+    <p class="disclaimer">ההתאמה מחושבת לפי מרחק בין תשובותיך לעמדות מתועדות (ציטוטים, הצבעות, מצעים). עמדה לא ידועה נספרת במשקל מופחת. זהו כלי עזר בלבד.</p>
+  </div>
+</section>
+
+<script src="js/quiz.js"></script>
+</body>
+</html>
