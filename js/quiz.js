@@ -46,6 +46,23 @@
     $('explainBox').textContent = q.explain_he ? '💡 ' + q.explain_he : '';
     $('explainBox').style.display = q.explain_he ? '' : 'none';
 
+    // expandable background about the topic
+    const bg = (polData.topics[q.topic] || {}).bg_he;
+    const bgWrap = $('bgWrap'), bgText = $('bgText'), bgToggle = $('bgToggle');
+    if (bg) {
+      bgWrap.style.display = '';
+      bgText.textContent = bg;
+      bgText.style.display = 'none';
+      bgToggle.textContent = '📖 קרא עוד על הרקע ›';
+      bgToggle.onclick = () => {
+        const open = bgText.style.display === 'none';
+        bgText.style.display = open ? 'block' : 'none';
+        bgToggle.textContent = open ? '📖 הסתר רקע ‹' : '📖 קרא עוד על הרקע ›';
+      };
+    } else {
+      bgWrap.style.display = 'none';
+    }
+
     const wrap = $('answers');
     wrap.innerHTML = '';
     wrap.className = 'answers' + (q.type === 'scale' ? ' scale' : '');

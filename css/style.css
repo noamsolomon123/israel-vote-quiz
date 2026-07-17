@@ -83,6 +83,20 @@ h1 { font-weight: 900; font-size: clamp(28px, 5vw, 42px); margin-bottom: 14px; }
   color: #d8dfec; font-size: 14.5px; line-height: 1.6;
 }
 
+.bg-wrap { margin: -6px 0 20px; }
+.bg-toggle {
+  background: transparent; color: var(--accent);
+  border: none; font-family: inherit; font-size: 14px; font-weight: 600;
+  padding: 4px 0; cursor: pointer;
+}
+.bg-toggle:hover { text-decoration: underline; }
+.bg-text {
+  display: none; margin-top: 8px;
+  background: rgba(79,142,247,.07); border: 1px solid rgba(79,142,247,.2);
+  border-radius: 12px; padding: 12px 15px;
+  color: #cdd6e6; font-size: 14.5px; line-height: 1.75; text-align: right;
+}
+
 .skip-btn {
   display: block; width: 100%; margin: -12px 0 22px;
   background: transparent; color: var(--muted);
