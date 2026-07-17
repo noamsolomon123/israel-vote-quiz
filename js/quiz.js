@@ -1,6 +1,6 @@
 /* Israel Vote Quiz 2026 — engine */
 (async function () {
-  const V = '4';
+  const V = '7';
   const [questions, polData] = await Promise.all([
     fetch('data/questions.json?v=' + V).then(r => r.json()),
     fetch('data/politicians.json?v=' + V).then(r => r.json()),
@@ -160,6 +160,24 @@
     }).sort((a, b) => b.pct - a.pct);
 
     const skipped = answers.filter(a => a && a.skipped).length;
+    const answered = answers.filter(a => a && !a.skipped).length;
+
+    // edge case: nothing answered → no meaningful ranking
+    if (answered === 0) {
+      $('resultsSub').textContent = '';
+      $('winnerCard').innerHTML = `
+        <div class="crown">🤔</div>
+        <h2>לא ענית על אף שאלה</h2>
+        <div class="party">כדי לקבל התאמה, ענה לפחות על שאלה אחת (בלי לדלג).</div>
+        <a class="rank-link" href="#" id="goAnswer">חזרה לשאלון ›</a>`;
+      $('ranking').innerHTML = '';
+      const g = $('goAnswer');
+      if (g) g.onclick = e => { e.preventDefault(); idx = 0; render(); show('quiz'); };
+      $('progressFill').style.width = '100%';
+      show('results');
+      return;
+    }
+
     $('resultsSub').textContent = 'דירוג ההתאמה בין הדעות שלך לעמדות המתועדות של המנהיגים:'
       + (skipped ? ` (דילגת על ${skipped} שאלות — הן לא נספרו)` : '');
 

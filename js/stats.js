@@ -23,13 +23,13 @@
   const avg = (arr, f) => arr.reduce((s, a) => s + f(a), 0) / arr.length;
 
   // ---- generic scatter builder ----
-  function scatter(containerId, yField, yMax, trendColor, labelSet) {
+  function scatter(containerId, yField, yMax, trendColor, labelSet, ariaLabel) {
     const W = 720, H = 460, m = { t: 20, r: 22, b: 56, l: 54 };
     const iw = W - m.l - m.r, ih = H - m.t - m.b;
     const sx = v => m.l + ((v - 1) / 9) * iw;
     const sy = v => m.t + ih - (v / yMax) * ih;
     const reg = stat(gen, c => c.cluster, c => c[yField]);
-    let s = `<svg viewBox="0 0 ${W} ${H}" class="scatter" role="img">`;
+    let s = `<svg viewBox="0 0 ${W} ${H}" class="scatter" role="img" aria-label="${ariaLabel}">`;
     for (let g = 0; g <= yMax; g += yMax / 5) {
       s += `<line x1="${m.l}" y1="${sy(g)}" x2="${W - m.r}" y2="${sy(g)}" stroke="#2a3548"/>`;
       s += `<text x="${m.l - 8}" y="${sy(g) + 4}" fill="#9aa7bd" font-size="12" text-anchor="end">${Math.round(g)}%</text>`;
@@ -68,8 +68,8 @@
     'באר שבע': [10, 14, 'start'], 'אילת': [10, 4, 'start'], 'בני ברק': [10, 4, 'start'],
     'טבריה': [10, 14, 'start'], 'נס ציונה': [10, -6, 'start'],
   };
-  const regA = scatter('scatterLikud', 'likud', 50, '#ff6b8b', labA);
-  const regB = scatter('scatterLeft', 'center_left', 70, '#4f8ef7', labB);
+  const regA = scatter('scatterLikud', 'likud', 50, '#ff6b8b', labA, 'גרף פיזור: אחוז תמיכה בליכוד לפי עיר מול האשכול החברתי-כלכלי. ככל שהאשכול גבוה יותר, התמיכה בליכוד יורדת.');
+  const regB = scatter('scatterLeft', 'center_left', 70, '#4f8ef7', labB, 'גרף פיזור: אחוז תמיכה בגוש המרכז-שמאל לפי עיר מול האשכול החברתי-כלכלי. ככל שהאשכול גבוה יותר, התמיכה במרכז-שמאל עולה.');
 
   const rLikud = stat(gen, c => c.cluster, c => c.likud).r;
   const rLeft = stat(gen, c => c.cluster, c => c.center_left).r;
