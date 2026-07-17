@@ -1,0 +1,41 @@
+{
+ "meta": {
+  "vote_source": "ועדת הבחירות המרכזית — נתוני קלפי, בחירות לכנסת ה-25 (1.11.2022). אחוז ליכוד = קולות מחל מתוך הקולות הכשרים.",
+  "vote_url": "https://votes25.bechirot.gov.il/",
+  "socio_source": "מדד חברתי-כלכלי של הרשויות המקומיות, הלמ\"ס (אפיון 2021), אשכולות 1 (נמוך) עד 10 (גבוה).",
+  "socio_url": "https://he.wikipedia.org/wiki/דירוג_רשויות_מקומיות_בישראל",
+  "note": "אחוז הליכוד הוא קירוב לתמיכה בנתניהו (הליכוד הוא מפלגתו), אך לא זהה לה. אשכול חברתי-כלכלי אינו מודד חוכמה או 'איכות' של אנשים — הוא מדרג הכנסה, השכלה ותעסוקה. הצבעה מושפעת מקהילה, מוצא, דת, גיל וגאוגרפיה, לא רק מכלכלה."
+ },
+ "cities": [
+  {"name":"קריית אתא","likud":42.8,"cluster":6,"type":"general"},
+  {"name":"אילת","likud":43.7,"cluster":6,"type":"general"},
+  {"name":"טבריה","likud":40.4,"cluster":3,"type":"general"},
+  {"name":"באר שבע","likud":40.3,"cluster":5,"type":"general"},
+  {"name":"אשקלון","likud":39.7,"cluster":5,"type":"general"},
+  {"name":"רמלה","likud":39.3,"cluster":4,"type":"general"},
+  {"name":"נהריה","likud":38.5,"cluster":6,"type":"general"},
+  {"name":"חדרה","likud":38.3,"cluster":6,"type":"general"},
+  {"name":"קריית גת","likud":36.3,"cluster":4,"type":"general"},
+  {"name":"בת ים","likud":35.7,"cluster":5,"type":"general"},
+  {"name":"נתניה","likud":35.5,"cluster":6,"type":"general"},
+  {"name":"חולון","likud":34.6,"cluster":7,"type":"general"},
+  {"name":"ראשון לציון","likud":32.4,"cluster":7,"type":"general"},
+  {"name":"אשדוד","likud":28.8,"cluster":5,"type":"general"},
+  {"name":"לוד","likud":28.5,"cluster":3,"type":"general"},
+  {"name":"פתח תקווה","likud":28.4,"cluster":7,"type":"general"},
+  {"name":"רחובות","likud":25.8,"cluster":7,"type":"general"},
+  {"name":"מודיעין-מכבים-רעות","likud":22.5,"cluster":8,"type":"general"},
+  {"name":"רמת גן","likud":22.3,"cluster":8,"type":"general"},
+  {"name":"כפר סבא","likud":21.8,"cluster":8,"type":"general"},
+  {"name":"הרצליה","likud":21.2,"cluster":8,"type":"general"},
+  {"name":"חיפה","likud":20.9,"cluster":7,"type":"general"},
+  {"name":"רעננה","likud":20.5,"cluster":8,"type":"general"},
+  {"name":"תל אביב-יפו","likud":17.0,"cluster":8,"type":"general"},
+  {"name":"גבעתיים","likud":15.8,"cluster":9,"type":"general"},
+  {"name":"ירושלים","likud":19.1,"cluster":2,"type":"mixed"},
+  {"name":"בית שמש","likud":15.5,"cluster":2,"type":"haredi"},
+  {"name":"בני ברק","likud":3.4,"cluster":2,"type":"haredi"},
+  {"name":"נצרת","likud":2.3,"cluster":3,"type":"arab"},
+  {"name":"אום אל-פחם","likud":0.7,"cluster":2,"type":"arab"}
+ ]
+}
