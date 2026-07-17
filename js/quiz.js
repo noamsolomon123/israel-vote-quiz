@@ -19,7 +19,7 @@
   let idx = 0;
 
   const $ = id => document.getElementById(id);
-  const screens = { landing: $('landing'), quiz: $('quiz'), results: $('results') };
+  const screens = { landing: $('landing'), quiz: $('quiz'), results: $('results'), allq: $('allq') };
   function show(name) {
     Object.values(screens).forEach(s => s.classList.remove('active'));
     screens[name].classList.add('active');
@@ -28,6 +28,26 @@
 
   $('startBtn').onclick = () => { idx = 0; render(); show('quiz'); };
   $('restartBtn').onclick = () => { answers.fill(null); idx = 0; render(); show('quiz'); };
+
+  // ===== All-questions overview screen =====
+  const SCALE_HINT = SCALE_LABELS.map(o => o.t).join(' · ');
+  $('allqList').innerHTML = questions.map((q, i) => {
+    const bg = (polData.topics[q.topic] || {}).bg_he;
+    const optsHtml = q.type === 'mc'
+      ? `<ul class="allq-choices">${q.choices.map(c => `<li>${c.text_he}</li>`).join('')}</ul>`
+      : `<div class="allq-scale">אפשרויות: ${SCALE_HINT}</div>`;
+    return `
+      <div class="allq-item">
+        <div class="allq-top"><span class="allq-num">${i + 1}</span><span class="topic-tag">${q.topic_he}</span></div>
+        <div class="allq-q">${q.text_he}</div>
+        ${q.explain_he ? `<div class="allq-explain">💡 ${q.explain_he}</div>` : ''}
+        ${optsHtml}
+        ${bg ? `<div class="allq-bg">📖 ${bg}</div>` : ''}
+      </div>`;
+  }).join('');
+  $('viewAllBtn').onclick = () => { show('allq'); };
+  $('allqBackBtn').onclick = () => { show('landing'); };
+  $('allqStartBtn').onclick = () => { idx = 0; render(); show('quiz'); };
 
   // candidates grid on landing — agenda pages readable anytime
   $('candidatesGrid').innerHTML = politicians.map(p => `

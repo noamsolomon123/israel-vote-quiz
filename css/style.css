@@ -107,6 +107,39 @@ h1 { font-weight: 900; font-size: clamp(28px, 5vw, 42px); margin-bottom: 14px; }
 .skip-btn:hover { color: var(--text); border-color: var(--muted); }
 .skip-btn.selected { color: var(--gold); border-color: var(--gold); background: rgba(247,201,72,.08); }
 
+.secondary-actions { margin-top: 14px; }
+
+/* ===== All questions overview ===== */
+.allq-inner { width: 100%; max-width: 760px; }
+.allq-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 6px; }
+.allq-head h1 { margin: 0; font-size: clamp(24px, 4vw, 34px); }
+.allq-list { display: flex; flex-direction: column; gap: 14px; margin: 20px 0 26px; }
+.allq-item {
+  background: linear-gradient(160deg, var(--card), var(--card2));
+  border: 1px solid #2e3a55; border-radius: var(--radius);
+  padding: 20px 20px;
+}
+.allq-top { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.allq-num {
+  width: 28px; height: 28px; flex: none; border-radius: 50%;
+  background: var(--accent); color: #fff; font-weight: 800; font-size: 14px;
+  display: flex; align-items: center; justify-content: center;
+}
+.allq-q { font-size: 18px; font-weight: 800; line-height: 1.5; margin-bottom: 10px; }
+.allq-explain {
+  background: rgba(247,201,72,.08); border: 1px solid rgba(247,201,72,.25);
+  border-radius: 10px; padding: 8px 12px; margin-bottom: 10px;
+  color: #d8dfec; font-size: 14px; line-height: 1.6;
+}
+.allq-choices { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-direction: column; gap: 5px; }
+.allq-choices li { background: var(--card2); border: 1px solid #2e3a55; border-radius: 9px; padding: 7px 12px; font-size: 14px; }
+.allq-scale { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+.allq-bg {
+  background: rgba(79,142,247,.07); border: 1px solid rgba(79,142,247,.2);
+  border-radius: 10px; padding: 10px 13px;
+  color: #cdd6e6; font-size: 13.5px; line-height: 1.7;
+}
+
 /* ===== Candidates grid (landing) ===== */
 .cand-section { margin-top: 34px; border-top: 1px solid #2e3a55; padding-top: 26px; }
 .cand-title { font-size: 21px; font-weight: 800; margin-bottom: 6px; }
