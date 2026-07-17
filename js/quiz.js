@@ -1,8 +1,9 @@
 /* Israel Vote Quiz 2026 — engine */
 (async function () {
+  const V = '4';
   const [questions, polData] = await Promise.all([
-    fetch('data/questions.json').then(r => r.json()),
-    fetch('data/politicians.json').then(r => r.json()),
+    fetch('data/questions.json?v=' + V).then(r => r.json()),
+    fetch('data/politicians.json?v=' + V).then(r => r.json()),
   ]);
   const politicians = polData.politicians;
 
