@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>נתונים — תמיכה בליכוד מול מדד חברתי-כלכלי</title>
-<link rel="stylesheet" href="css/style.css?v=4">
+<title>נתונים — דפוסי הצבעה מול מדד חברתי-כלכלי</title>
+<link rel="stylesheet" href="css/style.css?v=5">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;800;900&display=swap" rel="stylesheet">
 </head>
@@ -12,33 +12,39 @@
 <section class="screen active">
   <div class="stats-inner">
     <div class="allq-head">
-      <h1>📊 תמיכה בליכוד מול מדד חברתי-כלכלי</h1>
+      <h1>📊 דפוסי הצבעה מול מדד חברתי-כלכלי</h1>
       <button id="statsBackBtn" class="btn-ghost">‹ חזרה לדף הבית</button>
     </div>
 
     <div class="stats-warn">
-      <strong>איך לקרוא את זה נכון:</strong> הגרף מציג אחוז תמיכה בליכוד (בחירות 2022) לפי עיר,
-      מול האשכול החברתי-כלכלי של אותה עיר (הלמ"ס). <u>אשכול חברתי-כלכלי אינו מודד חוכמה או "איכות" של בני אדם</u> —
-      אלא הכנסה, השכלה ותעסוקה בממוצע. הצבעה מושפעת מקהילה, מוצא, דת, גיל וגאוגרפיה, לא רק מכלכלה. מתאם ≠ סיבתיות.
+      <strong>איך לקרוא את זה נכון:</strong> הגרפים מציגים אחוזי הצבעה לפי עיר (בחירות 2022) מול האשכול החברתי-כלכלי של אותה עיר (הלמ"ס).
+      <u>אשכול חברתי-כלכלי אינו מודד חוכמה או "איכות" של בני אדם</u> — אלא הכנסה, השכלה ותעסוקה בממוצע.
+      הצבעה מושפעת מקהילה, מוצא, דת, גיל וגאוגרפיה, לא רק מכלכלה. מתאם ≠ סיבתיות.
     </div>
 
     <div class="stats-card">
-      <h2>גרף פיזור</h2>
-      <div id="scatter"></div>
-      <div id="legend" class="legend"></div>
+      <h2>1. תמיכה בליכוד מול עושר העיר</h2>
+      <p class="card-sub">ככל שהעיר עשירה יותר, התמיכה בליכוד נוטה לרדת (בערים היהודיות הכלליות).</p>
+      <div id="scatterLikud"></div>
+      <div id="legendLikud" class="legend"></div>
     </div>
 
     <div class="stats-card">
-      <h2>מה רואים בנתונים</h2>
-      <ul class="stats-points">
-        <li>בין הערים היהודיות ה"כלליות", יש מתאם שלילי מתון בין העושר לתמיכה בליכוד
-          (<strong>r = <span id="rval">–</span></strong>): ערים עשירות יותר (גבעתיים, תל אביב, הרצליה, רעננה — אשכול 8–9) נוטות לתמוך פחות בליכוד,
-          ובערי מעמד-הביניים והפריפריה (קריית אתא, אילת, באר שבע, אשקלון) התמיכה גבוהה יותר. זהו דפוס מוכר בפוליטיקה הישראלית.</li>
-        <li><strong>אבל הסיפור "ערים חלשות = ליכוד" פשוט לא נכון:</strong> הערים עם האשכול הכי נמוך —
-          הערביות (אום אל-פחם 0.7%, נצרת 2.3%) והחרדיות (בני ברק 3.4%, בית שמש 15.5%) — מצביעות <em>הכי מעט</em> ליכוד,
-          מסיבות של קהילה, דת ומוצא — לא כלכלה. כלכלה לבדה לא מנבאת הצבעה.</li>
-        <li>המסקנה: אי אפשר להסיק מהגרף שום דבר על "חוכמה" או "איכות" של תושבי עיר. הוא מראה דפוסי הצבעה קבוצתיים, לא ערך של אנשים.</li>
-      </ul>
+      <h2>2. הגוש המרכז-שמאלי מול עושר העיר</h2>
+      <p class="card-sub">גוש יש עתיד + המחנה הממלכתי + העבודה + מרצ. הקשר הפוך וחזק: ערים עשירות = יותר מרכז-שמאל.</p>
+      <div id="scatterLeft"></div>
+      <div id="legendLeft" class="legend"></div>
+    </div>
+
+    <div class="stats-card">
+      <h2>מסקנות מהנתונים</h2>
+      <ul id="conclusions" class="stats-points"></ul>
+    </div>
+
+    <div class="stats-card">
+      <h2>מי ניצח בכל עיר (2022)</h2>
+      <p class="card-sub">המפלגה הגדולה בכל עיר, מסודר מהאשכול הנמוך לגבוה.</p>
+      <div id="winners" class="winners"></div>
     </div>
 
     <div class="stats-card">
@@ -50,6 +56,6 @@
     <p id="sources" class="disclaimer"></p>
   </div>
 </section>
-<script src="js/stats.js?v=4"></script>
+<script src="js/stats.js?v=5"></script>
 </body>
 </html>
