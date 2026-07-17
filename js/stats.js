@@ -1,6 +1,6 @@
 /* City stats — vote patterns vs socioeconomic cluster (2022 / CBS 2021) */
 (async function () {
-  const V = '5';
+  const V = '6';
   const data = await fetch('data/city-stats.json?v=' + V).then(r => r.json());
   const cities = data.cities;
   const parties = data.parties;
@@ -74,6 +74,9 @@
   const rLikud = stat(gen, c => c.cluster, c => c.likud).r;
   const rLeft = stat(gen, c => c.cluster, c => c.center_left).r;
   const rBibi = stat(gen, c => c.cluster, c => c.netanyahu_bloc).r;
+  const genW = gen.filter(c => c.avg_wage != null);
+  const rWageLeft = stat(genW, c => c.avg_wage, c => c.center_left).r;
+  const rAcadLeft = stat(gen.filter(c => c.pct_academic != null), c => c.pct_academic, c => c.center_left).r;
 
   // ---- legends ----
   const typeLegend = Object.values(TYPE).map(t =>
@@ -99,7 +102,8 @@
     `<strong>ובאותה מידה — עשירות יותר = פחות גוש נתניהו.</strong> המתאם בין האשכול לתמיכה בגוש נתניהו (ליכוד, הציונות הדתית, ש"ס, יהדות התורה) שלילי מאוד: <strong>r = ${rBibi.toFixed(2)}</strong>. בליכוד לבדו: <strong>r = ${rLikud.toFixed(2)}</strong>.</strong>`,
     `<strong>הליכוד חזק בפריפריה ובמעמד-הביניים-נמוך היהודי</strong> (אילת 43.7%, קריית אתא 42.8%, באר שבע 40.3%, אשקלון 39.7%), וחלש בערי גוש דן העשירות (גבעתיים 15.8%, תל אביב 17%).`,
     `<strong>אבל כלכלה לבדה לא מנבאת הצבעה:</strong> הערים החרדיות (בני ברק, בית שמש) והערביות (אום אל-פחם, נצרת) נמוכות באשכול אך אינן מצביעות ליכוד כלל — הן מצביעות למפלגות המגזריות שלהן (יהדות התורה/ש"ס, חד"ש-תע"ל/בל"ד/רע"מ). כאן הזהות הקהילתית גוברת על הכלכלה. לכן הן מוחרגות מקו המגמה.`,
-    `<strong>מה זה כן ומה זה לא:</strong> אלה <em>דפוסי הצבעה קבוצתיים</em> ומתאם סטטיסטי — לא סיבתיות, ובוודאי לא "חוכמה" או "איכות" של תושבים. עיר אינה טובה או פחותה מאחרת לפי איך שהיא מצביעה.`,
+    `<strong>גם שכר והשכלה מתואמים חזק עם הצבעה:</strong> בערים היהודיות הכלליות, ככל שהשכר הממוצע גבוה יותר — התמיכה במרכז-שמאל עולה (r = ${rWageLeft.toFixed(2)}), וכך גם ככל ששיעור האקדמאים גבוה יותר (r = ${rAcadLeft.toFixed(2)}). זהו אותו דפוס: ערי גוש דן העשירות והמשכילות נוטות מרכז-שמאל, וערי הפריפריה נוטות לליכוד.`,
+    `<strong>מה זה כן ומה זה לא:</strong> אלה <em>דפוסי הצבעה קבוצתיים</em> ומתאם סטטיסטי — לא סיבתיות, ובוודאי לא "חוכמה" או "איכות" של תושבים. עיר אינה טובה או פחותה מאחרת לפי איך שהיא מצביעה. גם שיעור גיוס נמוך בערים ערביות/חרדיות משקף הסדרי פטור — לא "תרומה" נמוכה.`,
   ];
   $('conclusions').innerHTML = conclusions.map(c => `<li>${c}</li>`).join('');
 
@@ -112,6 +116,29 @@
       <span class="bar-track"><span class="bar-fill" style="width:${(c.likud / maxL) * 100}%;background:${col}"></span></span>
       <span class="bar-val">${c.likud}%</span></div>`;
   }).join('');
+
+  // ---- per-city metrics table ----
+  const tRows = [...cities].sort((a, b) => (b.avg_wage || 0) - (a.avg_wage || 0));
+  const fmt = (v, suf = '') => v == null ? '—' : v + suf;
+  $('metricsTable').innerHTML = `
+    <table class="mtab">
+      <thead><tr>
+        <th>עיר</th><th>אשכול</th><th>שכר ממוצע ₪</th><th>% אקדמאים</th><th>גיוס גברים</th><th>גיוס נשים</th><th>אבטלה</th>
+      </tr></thead>
+      <tbody>
+        ${tRows.map(c => `<tr>
+          <td class="mt-city">${c.name}</td>
+          <td>${c.cluster}</td>
+          <td>${fmt(c.avg_wage != null ? c.avg_wage.toLocaleString('he-IL') : null)}</td>
+          <td>${fmt(c.pct_academic, '%')}</td>
+          <td>${fmt(c.idf_men, '%')}</td>
+          <td>${fmt(c.idf_women, '%')}</td>
+          <td>${fmt(c.unemployment, '%')}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>`;
+  $('metricsNote').textContent = data.meta.metrics_note;
+  $('metricsSrc').textContent = 'מקור: ' + data.meta.metrics_source;
 
   $('meta-note').textContent = data.meta.note;
   $('sources').innerHTML =

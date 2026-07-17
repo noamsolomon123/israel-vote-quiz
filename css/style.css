@@ -133,6 +133,13 @@ h1 { font-weight: 900; font-size: clamp(28px, 5vw, 42px); margin-bottom: 14px; }
 .win-city { font-weight: 700; font-size: 13.5px; }
 .win-cl { color: var(--muted); font-size: 11.5px; }
 .win-party { margin-inline-start: auto; color: #fff; font-size: 11.5px; font-weight: 700; border-radius: 999px; padding: 3px 9px; white-space: nowrap; }
+
+.mtab-wrap { overflow-x: auto; }
+.mtab { width: 100%; border-collapse: collapse; font-size: 13px; }
+.mtab th, .mtab td { padding: 8px 6px; text-align: center; border-bottom: 1px solid #2a3548; white-space: nowrap; }
+.mtab thead th { color: var(--muted); font-weight: 700; font-size: 12px; position: sticky; top: 0; background: var(--card); }
+.mtab .mt-city { text-align: right; font-weight: 700; }
+.mtab tbody tr:hover { background: rgba(79,142,247,.06); }
 .scatter { width: 100%; height: auto; background: #131a29; border-radius: 12px; }
 .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; justify-content: center; }
 .legend .lg { display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); }
