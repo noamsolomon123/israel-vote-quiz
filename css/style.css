@@ -296,3 +296,51 @@ h1 { font-weight: 900; font-size: clamp(28px, 5vw, 42px); margin-bottom: 14px; }
   .rank-row { grid-template-columns: 30px 44px 1fr auto; padding: 12px; }
   .avatar { width: 44px; height: 44px; font-size: 14px; }
 }
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+  .screen { padding: 16px 12px; }
+
+  /* landing */
+  .landing-inner { padding: 30px 18px; border-radius: 14px; }
+  .ballot-icon { font-size: 52px; }
+  .subtitle { font-size: 15.5px; }
+  .landing-points li { font-size: 14.5px; }
+  .btn-primary { font-size: 16px; padding: 13px 32px; width: 100%; }
+  .btn-ghost { width: 100%; }
+  .secondary-actions .btn-ghost, .secondary-actions a.btn-ghost { font-size: 13.5px; padding: 11px 14px; }
+
+  /* quiz */
+  .question-card { padding: 20px 15px; }
+  #questionText { font-size: 18px; }
+  .answers button { font-size: 15px; padding: 12px 14px; }
+  .explain-box, .bg-text { font-size: 13.5px; }
+  .nav-btns { gap: 10px; }
+  .nav-btns .btn-primary { width: auto; flex: 1; }
+
+  /* all-questions + stats cards */
+  .allq-item, .stats-card { padding: 16px 14px; }
+  .allq-q { font-size: 16.5px; }
+  .stats-warn { padding: 13px 14px; font-size: 13.5px; }
+  .stats-card h2 { font-size: 17px; }
+
+  /* candidates + winners: single column, comfortable tap targets */
+  .cand-grid { grid-template-columns: repeat(2, 1fr); }
+  .winners { grid-template-columns: 1fr; }
+
+  /* results */
+  .winner-card .pct, .pct { font-size: 40px; }
+
+  /* per-city table: tighter so it fits, still scrolls if needed */
+  .mtab { font-size: 11.5px; }
+  .mtab th, .mtab td { padding: 6px 4px; }
+
+  /* headings */
+  .allq-head { gap: 8px; }
+  .allq-head h1 { font-size: 22px; }
+}
+
+@media (max-width: 380px) {
+  .cand-grid { grid-template-columns: 1fr; }
+  #questionText { font-size: 17px; }
+}
