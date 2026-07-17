@@ -1,6 +1,6 @@
 /* Israel Vote Quiz 2026 — engine */
 (async function () {
-  const V = '7';
+  const V = '8';
   const [questions, polData] = await Promise.all([
     fetch('data/questions.json?v=' + V).then(r => r.json()),
     fetch('data/politicians.json?v=' + V).then(r => r.json()),
@@ -60,6 +60,8 @@
 
   function render() {
     const q = questions[idx];
+    const card = $('questionCard');
+    card.classList.remove('q-enter'); void card.offsetWidth; card.classList.add('q-enter');
     $('progressText').textContent = `${idx + 1} / ${questions.length}`;
     $('progressFill').style.width = `${(idx / questions.length) * 100}%`;
     $('topicTag').textContent = q.topic_he;
@@ -90,9 +92,10 @@
     const opts = q.type === 'scale'
       ? SCALE_LABELS.map(o => ({ text_he: o.t, value: o.v }))
       : q.choices;
-    opts.forEach(opt => {
+    opts.forEach((opt, oi) => {
       const b = document.createElement('button');
       b.textContent = opt.text_he;
+      if (q.type === 'scale') b.dataset.scale = oi;
       if (answers[idx] && !answers[idx].skipped && answers[idx].value === opt.value && answers[idx].text === opt.text_he) b.classList.add('selected');
       b.onclick = () => {
         answers[idx] = { value: opt.value, text: opt.text_he, weight: currentWeight() };
