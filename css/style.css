@@ -75,7 +75,43 @@ h1 { font-weight: 900; font-size: clamp(28px, 5vw, 42px); margin-bottom: 14px; }
   display: inline-block; background: rgba(79,142,247,.15); color: var(--accent);
   font-size: 13px; font-weight: 600; border-radius: 999px; padding: 4px 14px; margin-bottom: 14px;
 }
-#questionText { font-size: clamp(19px, 3vw, 24px); font-weight: 800; line-height: 1.5; margin-bottom: 24px; }
+#questionText { font-size: clamp(19px, 3vw, 24px); font-weight: 800; line-height: 1.5; margin-bottom: 14px; }
+
+.explain-box {
+  background: rgba(247,201,72,.08); border: 1px solid rgba(247,201,72,.25);
+  border-radius: 12px; padding: 10px 14px; margin-bottom: 20px;
+  color: #d8dfec; font-size: 14.5px; line-height: 1.6;
+}
+
+.skip-btn {
+  display: block; width: 100%; margin: -12px 0 22px;
+  background: transparent; color: var(--muted);
+  border: 1px dashed #35415e; border-radius: 12px;
+  font-family: inherit; font-size: 14px; padding: 10px 14px; cursor: pointer;
+  transition: color .15s, border-color .15s;
+}
+.skip-btn:hover { color: var(--text); border-color: var(--muted); }
+.skip-btn.selected { color: var(--gold); border-color: var(--gold); background: rgba(247,201,72,.08); }
+
+/* ===== Candidates grid (landing) ===== */
+.cand-section { margin-top: 34px; border-top: 1px solid #2e3a55; padding-top: 26px; }
+.cand-title { font-size: 21px; font-weight: 800; margin-bottom: 6px; }
+.cand-sub { color: var(--muted); font-size: 14px; line-height: 1.6; margin-bottom: 18px; }
+.cand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
+.cand-card {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  background: var(--card2); border: 1px solid #2e3a55; border-radius: 14px;
+  padding: 14px 8px; text-decoration: none; color: var(--text);
+  transition: transform .15s, border-color .15s;
+}
+.cand-card:hover { transform: translateY(-3px); border-color: var(--accent); }
+.cand-card .avatar {
+  width: 44px; height: 44px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 15px; color: #fff;
+}
+.cand-name { font-weight: 700; font-size: 14px; }
+.cand-party { color: var(--muted); font-size: 12px; }
 
 .answers { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
 .answers button {

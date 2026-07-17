@@ -18,13 +18,19 @@
     <h1>למי להצביע ב־2026?</h1>
     <p class="subtitle">שאלון מעמיק שמשווה את הדעות שלך לעמדות <strong>המתועדות</strong> של 12 ראשי המפלגות — ציטוטים, הצבעות ומקורות אמיתיים בלבד.</p>
     <ul class="landing-points">
-      <li>✅ כ־30 שאלות על ביטחון, כלכלה, דת ומדינה, משפט ועוד</li>
+      <li>✅ 37 שאלות על ביטחון, כלכלה, דת ומדינה, משפט ועוד — עם הסבר פשוט לכל שאלה</li>
+      <li>🤷 לא בטוחים? אפשר לדלג על כל שאלה והיא לא תיספר</li>
       <li>⚖️ מסמנים גם כמה כל נושא חשוב לך</li>
       <li>📊 בסוף: דירוג מלא של כל המנהיגים באחוזי התאמה</li>
       <li>📄 לכל פוליטיקאי — דף אג'נדה מלא עם מקורות</li>
     </ul>
     <button id="startBtn" class="btn-primary">מתחילים ›</button>
     <p class="disclaimer">כלי עזר חינוכי בלבד, לא המלצת הצבעה רשמית. העמדות מבוססות על התבטאויות והצבעות פומביות נכון ליולי 2026.</p>
+    <div class="cand-section">
+      <h2 class="cand-title">📄 האג'נדות של המועמדים</h2>
+      <p class="cand-sub">אפשר לקרוא את העמדות המלאות של כל מועמד — עם ציטוטים ומקורות — גם בלי לענות על השאלון:</p>
+      <div id="candidatesGrid" class="cand-grid"></div>
+    </div>
   </div>
 </section>
 
@@ -38,7 +44,9 @@
     <div id="questionCard" class="question-card">
       <div id="topicTag" class="topic-tag"></div>
       <h2 id="questionText"></h2>
+      <p id="explainBox" class="explain-box"></p>
       <div id="answers" class="answers"></div>
+      <button id="skipBtn" class="skip-btn">🤷 לא בטוח/ה — דלג (השאלה לא תיספר)</button>
       <div class="importance-wrap">
         <span class="importance-label">כמה הנושא חשוב לך?</span>
         <div class="importance-btns" id="importanceBtns">
@@ -59,7 +67,7 @@
 <section id="results" class="screen">
   <div class="results-inner">
     <h1>התוצאות שלך</h1>
-    <p class="results-sub">דירוג ההתאמה בין הדעות שלך לעמדות המתועדות של המנהיגים:</p>
+    <p id="resultsSub" class="results-sub">דירוג ההתאמה בין הדעות שלך לעמדות המתועדות של המנהיגים:</p>
     <div id="winnerCard"></div>
     <div id="ranking" class="ranking"></div>
     <button id="restartBtn" class="btn-ghost">התחלה מחדש ↺</button>

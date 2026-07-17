@@ -29,12 +29,22 @@
   $('startBtn').onclick = () => { idx = 0; render(); show('quiz'); };
   $('restartBtn').onclick = () => { answers.fill(null); idx = 0; render(); show('quiz'); };
 
+  // candidates grid on landing — agenda pages readable anytime
+  $('candidatesGrid').innerHTML = politicians.map(p => `
+    <a class="cand-card" href="agendas/${p.id}.html">
+      <span class="avatar" style="background:${p.color}">${p.initials}</span>
+      <span class="cand-name">${p.name_he}</span>
+      <span class="cand-party">${p.party_he}</span>
+    </a>`).join('');
+
   function render() {
     const q = questions[idx];
     $('progressText').textContent = `${idx + 1} / ${questions.length}`;
     $('progressFill').style.width = `${(idx / questions.length) * 100}%`;
     $('topicTag').textContent = q.topic_he;
     $('questionText').textContent = q.text_he;
+    $('explainBox').textContent = q.explain_he ? '💡 ' + q.explain_he : '';
+    $('explainBox').style.display = q.explain_he ? '' : 'none';
 
     const wrap = $('answers');
     wrap.innerHTML = '';
@@ -45,20 +55,31 @@
     opts.forEach(opt => {
       const b = document.createElement('button');
       b.textContent = opt.text_he;
-      if (answers[idx] && answers[idx].value === opt.value && answers[idx].text === opt.text_he) b.classList.add('selected');
+      if (answers[idx] && !answers[idx].skipped && answers[idx].value === opt.value && answers[idx].text === opt.text_he) b.classList.add('selected');
       b.onclick = () => {
         answers[idx] = { value: opt.value, text: opt.text_he, weight: currentWeight() };
         [...wrap.children].forEach(c => c.classList.remove('selected'));
         b.classList.add('selected');
+        $('skipBtn').classList.remove('selected');
         $('nextBtn').disabled = false;
       };
       wrap.appendChild(b);
     });
 
+    // skip — question excluded from scoring
+    const sk = $('skipBtn');
+    sk.classList.toggle('selected', !!(answers[idx] && answers[idx].skipped));
+    sk.onclick = () => {
+      answers[idx] = { skipped: true };
+      [...wrap.children].forEach(c => c.classList.remove('selected'));
+      sk.classList.add('selected');
+      $('nextBtn').disabled = false;
+    };
+
     // importance
     const ib = $('importanceBtns');
     [...ib.children].forEach(b => {
-      b.classList.toggle('selected', answers[idx] ? +b.dataset.w === answers[idx].weight : b.dataset.w === '1');
+      b.classList.toggle('selected', answers[idx] && !answers[idx].skipped ? +b.dataset.w === answers[idx].weight : b.dataset.w === '1');
       b.onclick = () => {
         [...ib.children].forEach(c => c.classList.remove('selected'));
         b.classList.add('selected');
@@ -87,7 +108,7 @@
       let dist = 0, max = 0;
       questions.forEach((q, i) => {
         const a = answers[i];
-        if (!a) return;
+        if (!a || a.skipped) return;
         const pos = p.positions[q.topic];
         if (!pos) return;
         const pScore = pos.score * (q.reverse ? -1 : 1);
@@ -99,6 +120,10 @@
       const pct = max > 0 ? Math.round((1 - dist / max) * 100) : 0;
       return { p, pct };
     }).sort((a, b) => b.pct - a.pct);
+
+    const skipped = answers.filter(a => a && a.skipped).length;
+    $('resultsSub').textContent = 'דירוג ההתאמה בין הדעות שלך לעמדות המתועדות של המנהיגים:'
+      + (skipped ? ` (דילגת על ${skipped} שאלות — הן לא נספרו)` : '');
 
     const win = results[0];
     $('winnerCard').innerHTML = `
